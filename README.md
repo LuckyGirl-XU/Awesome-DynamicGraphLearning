@@ -34,8 +34,8 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 #### 2025
 
 * Ranking on Dynamic Graphs: An Effective and Robust Band-Pass Disentangled Approach (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714943)] [[code](https://github.com/YayaLee666/BandRank)]
-* On the Cross-Graph Transferability of Dynamic Link Prediction [[paper](https://dl.acm.org/doi/10.1145/3696410.3714712)]
-* Node-Time Conditional Prompt Learning In Dynamic Graphs [[paper](https://arxiv.org/abs/2405.13937)]
+* On the Cross-Graph Transferability of Dynamic Link Prediction (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714712)]
+* Node-Time Conditional Prompt Learning In Dynamic Graphs (**ICLR, 2025**) [[paper](https://arxiv.org/abs/2405.13937)]
 
 #### 2024
 
