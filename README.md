@@ -48,12 +48,10 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Causality-Inspired Spatial-Temporal Explanations for Dynamic Graph Neural Networks (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=AJBkfwXh3u&name=pdf)][[code](https://github.com/kesenzhao/DyGNNExplainer)]
 * FreeDyG: Frequency Enhanced Continuous-Time Dynamic Graph Model for Link Prediction (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=82Mc5ilInM&name=pdf)][[code](https://github.com/Tianxzzz/FreeDyG)]
 * PRES: Toward Scalable Memory-Based Dynamic Graph Neural Networks (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=gjXor87Xfy&name=pdf)][[code](https://github.com/jwsu825/MDGNN_BS)]
-* Deep Temporal Graph Clustering (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=ViNe1fjGME&name=pdf)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
 * GraphPulse: Topological representations for temporal graph property prediction (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=DZqic2sPTY&name=pdf)][[code](https://github.com/kiarashamsi/GraphPulse)]
 * Beyond Spatio-Temporal Representations: Evolving Fourier Transform for Temporal Graphs (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=uvFhCUPjtI&name=pdf)][[code](https://github.com/ansonb/EFT)]
 * Temporal Generalization Estimation in Evolving Graphs (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=HFtrXBfNru&name=pdf)]
 * Dynamic Graph Information Bottleneck (**WWW, 2024**) [[paper](https://arxiv.org/pdf/2402.06716.pdf)][[code](https://github.com/RingBDStack/DGIB)]
-* On the Feasibility of Simple Transformer for Dynamic Graph Modeling (**WWW, 2024**) [[paper](https://arxiv.org/pdf/2401.14009.pdf)][[code](https://github.com/YuxiaWu/SimpleDyG)]
 * Temporal Conformity-aware Hawkes Graph Network for Recommendations (**WWW, 2024**) 
 * IME: Integrating Multi-curvature Shared and Specific Embedding for Temporal Knowledge Graph Completion (**WWW, 2024**)
 * TATKC: A Temporal Graph Neural Network for Fast Approximate Temporal Katz Centrality Ranking (**WWW, 2024**)
@@ -71,17 +69,12 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Do We Really Need Complicated Model Architectures For Temporal Networks? (**ICLR, 2023**) [[paper](https://openreview.net/pdf?id=ayPPc0SyLv1)][[code](https://github.com/CongWeilin/GraphMixer)]
 * Zebra: When Temporal Graph Neural Networks Meet Temporal Personalized PageRank (**VLDB, 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p1332-li.pdf)][[code](https://github.com/LuckyLYM/Zebra)]
 * Temporal SIR-GN: Eficient and Efective Structural Representation Learning for Temporal Graphs (**VLDB, 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p2075-layne.pdf)][[code](https://github.com/janetlayne2/Temporal-SIR-GN)]
-* SEIGN: A Simple and Efficient Graph Neural Network for Large Dynamic Graphs (**ICDE, 2023**) [[paper](https://ieeexplore.ieee.org/abstract/document/10184567)]
 * A Higher-Order Temporal H-Index for Evolving Networks (**KDD, 2023**) [[paper](https://arxiv.org/pdf/2305.16001.pdf)]
 * Using Motif Transitions for Temporal Graph Generation (**KDD, 2023**) [[paper](https://arxiv.org/pdf/2306.11190.pdf)]
-* Temporal Dynamics Aware Adversarial Attacks on Discrete-Time Graph Models (**KDD, 2023**) [[paper](https://openreview.net/pdf?id=yUY15QBERj)][[code](https://github.com/erdemUB/KDD23-MTM)]
 * Fairness-Aware Continuous Predictions of Multiple Analytics Targets in Dynamic Networks (**KDD, 2023**) [[paper](https://arxiv.org/pdf/2209.01678.pdf)]
-* DyTed: Disentangled Representation Learning for Discrete-time Dynamic Graph (**KDD, 2023**) [[paper](https://arxiv.org/pdf/2210.10592.pdf)]
-* WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window (**KDD, 2023**) 
 * Community-based Dynamic Graph Learning for Popularity Prediction (**KDD, 2023**)
 * An Atentional Multi-scale Co-evolving Model for Dynamic Link Prediction (**WWW, 2023**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3543507.3583396)][[code](https://github.com/tsinghua-fib-lab/AMCNet)]
 * TIGER: Temporal Interaction Graph Embedding with Restarts (**WWW, 2023**) [[paper](https://arxiv.org/pdf/2302.06057.pdf)][[code](https://github.com/yzhang1918/www2023tiger)]
-* HGWaveNet: A Hyperbolic Graph Neural Network for Temporal Link Prediction (**WWW, 2023**) [[paper](https://arxiv.org/pdf/2304.07302.pdf)][[code](https://github.com/TaiLvYuanLiang/HGWaveNet)]
 * Expressive and Efficient Representation Learning for Ranking Links in Temporal Graphs (**WWW, 2023**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3543507.3583476)][[code](https://github.com/susheels/tgrank)]
 * Local Edge Dynamics and Opinion Polarization (**WSDM, 2023**) [[paper](https://arxiv.org/pdf/2111.14020.pdf)][[code](https://github.com/adamlechowicz/opinion-polarization/)]
 * Graph Sequential Neural ODE Process for Link Prediction on Dynamic and Sparse Graphs (**WSDM, 2023**) [[paper](https://arxiv.org/pdf/2211.08568.pdf)][[code](https://github.com/RManLuo/GSNOP)]
@@ -97,7 +90,6 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Parameter-free Dynamic Graph Embedding for Link Prediction (**Neurips, 2022**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/b14d7175755b180dc2163e15e3110cb6-Paper-Conference.pdf)][[code](https://github.com/FudanCISL/FreeGEM)]
 * Instant Graph Neural Networks for Dynamic Graphs (**KDD, 2022**) [[paper](https://arxiv.org/pdf/2206.01379.pdf)][[code]()]
 * Disentangled Dynamic Heterogeneous Graph Learning for Opioid Overdose Prediction (**KDD, 2022**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3534678.3539279)][[code]()]
-* ROLAND: Graph Learning Framework for Dynamic Graphs (**KDD, 2022**) [[paper](https://arxiv.org/pdf/2208.07239.pdf)][[code](https://github.com/snap-stanford/roland)]
 * Subset Node Anomaly Tracking over Large Dynamic Graphs (**KDD, 2022**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3534678.3539389)][[code](https://github.com/zjlxgxz/DynAnom)]
 * Neighborhood-aware Scalable Temporal Network Representation Learning (**LoG, 2022**) [[paper](https://openreview.net/pdf?id=EPUtNe7a9ta)][[code](https://github.com/Graph-COM/Neighborhood-Aware-Temporal-Network)]
 * DisenCTR: Dynamic Graph-based Disentangled Representation for Click-Through Rate Prediction (**SIGIR, 2022**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3477495.3531851)][[code](https://github.com/Fang6ang/DisenCTR)]
@@ -107,7 +99,6 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * A Viral Marketing-Based Model For Opinion Dynamics in Online Social Networks (**WWW, 2022**) [[paper](https://arxiv.org/pdf/2202.03573.pdf)]
 * EvoKG: Jointly Modeling Event Time and Network Structure for Reasoning over Temporal Knowledge Graphs (**WSDM, 2022**) [[paper](http://keg.cs.tsinghua.edu.cn/yuxiao/papers/WSDM22-park-evokg.pdf)][[code](https://github.com/NamyongPark/EvoKG)]
 * Finding a Concise, Precise, and Exhaustive Set of Near Bi-Cliques in Dynamic Graphs (**WSDM, 2022**) [[paper](https://arxiv.org/pdf/2110.14875.pdf)][[code](https://github.com/hyeonjeong1/cutnpeel)]
-* Few-shot Link Prediction in Dynamic Networks (**WSDM, 2022**) [[paper](http://www.shichuan.org/doc/120.pdf)]
 * On Generalizing Static Node Embedding to Dynamic Settings (**WSDM, 2022**) [[paper](https://gemslab.github.io/papers/dijin-2021-trg.pdf)]
 * Along the Time: Timeline-traced Embedding for Temporal Knowledge Graph Completion (**CIKM, 2022**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557233)][[code](https://github.com/zhangfw123/TLT-KGE)]
 * DA-Net: Distributed Attention Network for Temporal Knowledge Graph Reasoning (**CIKM, 2022**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3511808.3557280)]
@@ -119,7 +110,6 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks (**ICLR, 2021**) [[paper](https://openreview.net/pdf?id=KYPz4YsCPj)][[code](https://github.com/snap-stanford/CAW)]
 * Coupled Graph ODE for Learning Interacting System Dynamics (**KDD, 2021**) [[paper](http://web.cs.ucla.edu/~yzsun/papers/2021_KDD_CG_ODE.pdf)][[code](https://github.com/ZijieH/CG-ODE)]
 * Subset Node Representation Learning over Large Dynamic Graphs (**KDD, 2021**) [[paper](https://arxiv.org/pdf/2106.01570.pdf)][[code](https://github.com/zjlxgxz/DynamicPPE)]
-* Discrete-time Temporal Network Embedding via Implicit Hierarchical Learning in Hyperbolic Space [[paper](https://arxiv.org/pdf/2107.03767.pdf)][[code](https://github.com/marlin-codes/HTGN-KDD21)]
 * Learning to Walk across Time for Temporal Knowledge Graph Completion (**KDD, 2021**) [[paper](https://arxiv.org/pdf/2012.10595v1.pdf)]
 * Forecasting Interaction Order on Temporal Graphs (**KDD, 2021**) 
 * Temporal Knowledge Graph Reasoning Based on Evolutional Representation Learning (**SIGIR, 2021**) [[paper](https://arxiv.org/pdf/2104.10353.pdf)][[code](https://github.com/Lee-zix/RE-GCN)]
@@ -171,8 +161,6 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Recurrent Space-time Graph Neural Networks (**NeurIPS, 2019**) [[paper](http://export.arxiv.org/pdf/1904.05582#:~:text=Our%20recurrent%20neural%20graph%20ef%EF%AC%81ciently%20processes%20information%20in,in%20space-time%20using%20a%20backbone%20deep%20neural%20network.)][[code](https://github.com/IuliaDuta/RSTG)]
 * DyRep: Learning Representations over Dynamic Graphs (**ICLR, 2019**) [[paper](https://openreview.net/pdf?id=HyePrhR5KX)]
 * Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks (**KDD, 2019**) [[paper](https://arxiv.org/pdf/1908.01207.pdf)][[code](https://github.com/srijankr/jodie)]
-* Learning Dynamic Context Graphs for Predicting Social Events (**KDD, 2019**) [[paper](https://yue-ning.github.io/docs/KDD19-dengA.pdf)][[code](https://github.com/amy-deng/DynamicGCN)]
-* EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs (**AAAI, 2019**) [[paper](https://arxiv.org/pdf/1902.10191.pdf)][[code](https://github.com/IBM/EvolveGCN)]
 * Hierarchical Temporal Convolutional Networks for Dynamic Recommender Systems (**WWW, 2019**) [[paper](https://arxiv.org/pdf/1904.04381.pdf)]
 * Node Embedding over Temporal Graphs (**IJCAI, 2019**) [[paper](https://www.ijcai.org/proceedings/2019/0640.pdf)][[code](https://github.com/urielsinger/tNodeEmbed#:~:text=Node%20Embedding%20over%20Temporal%20Graphs.%20Uriel%20Singer%2C%20Ido,for%20nodes%20in%20any%20%28un%29directed%2C%20%28un%29weighted%20temporal%20graph.)]
 * Temporal Network Embedding with Micro- and Macro-dynamics (**CIKM, 2019**) [[paper](https://par.nsf.gov/servlets/purl/10148548)][[code](https://github.com/rootlu/MMDNE)]
