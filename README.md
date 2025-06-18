@@ -281,6 +281,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 #### 2024
 
 #### 2023
+* Continual Learning on Dynamic Graphs via Parameter Isolation (**SIGIR, 2023**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3539618.3591652)]
 
 #### 2022
 
