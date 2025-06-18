@@ -9,6 +9,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
   - [Discrete-time Dynamic Graph Learning](#discrete)
   - [Streaming Graph Learning](#streaming)
   - [Temporal Hypergraph Learning](#hyper)
+  - [Continual Learning](#continual)
 - [Tools](#tools)
 
 
@@ -270,6 +271,8 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Streaming Graph Neural Network (**SIGIR, 2020**) [[paper](https://arxiv.org/pdf/1810.10627.pdf)][[code](https://github.com/alge24/DyGNN)]
 * Streaming Graph Neural Network via Continue Learning (**CIKM, 2020**) [[paper](https://arxiv.org/pdf/2009.10951.pdf)][[code](https://github.com/Junshan-Wang/ContinualGNN)]
 * Real-Time Streaming Graph Embedding Through Local Actions (**WWW, 2019**) [[paper](https://nickduffield.net/download/papers/DL4G-SDE-2019.pdf)]
+
+<a name="continual" />
 
 ### Continual Learning
 
