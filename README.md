@@ -183,7 +183,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 ### Discrete-time Dynamic Graph Learning
 
-#### Survey
+### Survey
 * Deep learning for dynamic graphs: models and benchmarks (**ARXIV, 2024**) [[paper](https://arxiv.org/pdf/2307.06104v2)]
 * Encoder-Decoder Architecture for Supervised Dynamic Graph Learning: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2203.10480)]
 
@@ -271,6 +271,19 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Streaming Graph Neural Network via Continue Learning (**CIKM, 2020**) [[paper](https://arxiv.org/pdf/2009.10951.pdf)][[code](https://github.com/Junshan-Wang/ContinualGNN)]
 * Real-Time Streaming Graph Embedding Through Local Actions (**WWW, 2019**) [[paper](https://nickduffield.net/download/papers/DL4G-SDE-2019.pdf)]
 
+### Continual Learning
+
+### Survey
+
+#### 2024
+
+#### 2023
+
+#### 2022
+
+#### 2021
+
+#### 2020
 
 <a name="tools" />
 
