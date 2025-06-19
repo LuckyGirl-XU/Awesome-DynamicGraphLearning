@@ -282,6 +282,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 #### 2023
 * Continual Learning on Dynamic Graphs via Parameter Isolation (**SIGIR, 2023**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3539618.3591652)][[code](https://github.com/Jerry2398/PI-GNN)]
+* Towards Robust Graph Incremental Learning on Evolving Graphs (**ICML, 2023**) [[paper](https://proceedings.mlr.press/v202/su23a/su23a.pdf)][[code](https://github.com/jwsu825/NGIL_Evolve)]
 
 #### 2022
 
