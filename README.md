@@ -276,7 +276,8 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 ### Continual Learning
 
-### Survey
+### Benchmarks
+* Towards Robust Graph Incremental Learning on Evolving Graphs (**NeurIPS, 2022**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/548a41b9cac6f50dccf7e63e9e1b1b9b-Paper-Datasets_and_Benchmarks.pdf)][[code](https://github.com/Cinnamon/ugcl)]
 
 #### 2024
 
@@ -287,6 +288,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 #### 2022
 
 #### 2021
+* Overcoming Catastrophic Forgetting in Graph Neural Networks with Experience Replay (**AAAI, 2021**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16602/16409)][[code](https://github.com/SZU-AdvTech-2023/247-Overcoming-Catastrophic-Forgetting-in-Graph-Neural-Networks-with-Experience-Replay)]
 
 #### 2020
 
