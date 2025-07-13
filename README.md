@@ -1,6 +1,6 @@
 # Awesome-DynamicGraphLearning[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Awesome papers (codes) about machine learning (deep learning) on **time-aware graphs** and their applications (i.e., Recommender Systems).
+A curated collection of **awesome papers (and code)** on machine learning, deep learning, and large language models for **time-aware graphs** and their applications, such as anomaly detection and recommendation.
 
 ## Contents
 
