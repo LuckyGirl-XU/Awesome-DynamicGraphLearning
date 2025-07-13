@@ -259,7 +259,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 ### Anomaly Detection on Dynamic Graphs
 
 #### Survey
-Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [paper](https://dl.acm.org/doi/pdf/10.1145/3669906)
+Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3669906)]
 
 #### 2025
 
