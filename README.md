@@ -34,6 +34,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 #### 2025
 
+* UniDyG: A Unified and Effective Representation Learning Approach for Large Dynamic Graphs (**TKDE, 2025**)[[paper](https://ieeexplore.ieee.org/document/10981615)]
 * Ranking on Dynamic Graphs: An Effective and Robust Band-Pass Disentangled Approach (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714943)] [[code](https://github.com/YayaLee666/BandRank)]
 * On the Cross-Graph Transferability of Dynamic Link Prediction (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714712)]
 * Node-Time Conditional Prompt Learning In Dynamic Graphs (**ICLR, 2025**) [[paper](https://arxiv.org/abs/2405.13937)]
@@ -41,7 +42,10 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 #### 2024
 
 * Scalable and Effective Temporal Graph Representation Learning With Hyperbolic Geometry (**TNNLS, 2024**) [[paper](https://ieeexplore.ieee.org/document/10528375)][[code](https://github.com/LuckyGirl-XU/STGN)]
+* Long range propagation on continuous-time dynamic graphs (**ICML, 2024**)[[paper](https://dl.acm.org/doi/abs/10.5555/3692070.3692716)]
+* Improving temporal link prediction via temporal walk matrix projection (**NeurIPS 2024**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ff7bf6014f7826da531aa50f4538ee19-Paper-Conference.pdf)]
 * TimeSGN: Scalable and Effective Temporal Graph Neural Network (**ICDE, 2024**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10597745)][[code](https://github.com/LuckyGirl-XU/TimeSGN)]
+* Co-neighbor encoding schema: A light-cost structure encoding method for dynamic link prediction (**KDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3637528.3671770)]
 * ETC: Efficient Training of Temporal Graph Neural Networks over Large-scale Dynamic Graphs (**VLDB, 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p1060-gao.pdf)][[code](https://github.com/eddiegaoo/ETC)]
 * TASER: Temporal Adaptive Sampling for Fast and Accurate Dynamic Graph Representation Learning (**IPDPS, 2024**) [[paper](https://arxiv.org/abs/2402.05396)][[code](https://github.com/facebookresearch/taser-tgnn)]
 * Mayfly: a Neural Data Structure for Graph Stream Summarization (**ICLR, 2024, Spotlight**) [[paper](https://openreview.net/attachment?id=n7Sr8SW4bn&name=pdf)]
@@ -241,7 +245,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 ### Survey
 
 #### 2025
-* Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction (**KDD, 2025**)
+* Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction (**KDD, 2025**)[[paper](https://dl.acm.org/doi/10.1145/3690624.3709327)]
 
 #### 2024
 * Hypergraph Dynamic System (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=NLbRvr840Q&name=pdf)]
