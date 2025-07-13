@@ -21,7 +21,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 <a name="continuous" />
 
-### Continuous-time Dynamic Graph Learning
+### (1) Continuous-time Dynamic Graph Learning
 
 #### Survey
 * Graph Neural Networks Designed for Different Graph Types: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2204.03080.pdf)]
@@ -192,7 +192,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 <a name="discrete" />
 
-### Discrete-time Dynamic Graph Learning
+### (2) Discrete-time Dynamic Graph Learning
 
 #### Survey
 * Deep learning for dynamic graphs: models and benchmarks (**ARXIV, 2024**) [[paper](https://arxiv.org/pdf/2307.06104v2)]
@@ -246,7 +246,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 <a name="DyTAGs" />
 
-### Dynamic Text-Attributed Graph Learning
+### (3) Dynamic Text-Attributed Graph Learning
 
 #### Benchmarks
 * DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)]
@@ -259,7 +259,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 <a name= "Anomaly" />
 
-### Anomaly Detection on Dynamic Graphs
+### (4) Anomaly Detection on Dynamic Graphs
 
 #### Survey
 Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3669906)]
@@ -272,7 +272,7 @@ Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[pa
 
 <a name="hyper" />
 
-### Temporal Hypergraph Learning
+### (5) Temporal Hypergraph Learning
 
 #### Survey
 
@@ -291,7 +291,7 @@ Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[pa
 
 <a name="streaming" />
 
-### Streaming Graph Learning
+### (6) Streaming Graph Learning
 
 ### Survey
 
@@ -311,7 +311,7 @@ Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[pa
 
 <a name="continual" />
 
-### Continual Learning
+### (7) Continual Learning
 
 ### Benchmarks
 * Towards Robust Graph Incremental Learning on Evolving Graphs (**NeurIPS, 2022**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/548a41b9cac6f50dccf7e63e9e1b1b9b-Paper-Datasets_and_Benchmarks.pdf)][[code](https://github.com/Cinnamon/ugcl)]
