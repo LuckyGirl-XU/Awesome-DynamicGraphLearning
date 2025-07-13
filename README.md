@@ -50,6 +50,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Scalable and Effective Temporal Graph Representation Learning With Hyperbolic Geometry (**TNNLS, 2024**) [[paper](https://ieeexplore.ieee.org/document/10528375)][[code](https://github.com/LuckyGirl-XU/STGN)]
 * Long range propagation on continuous-time dynamic graphs (**ICML, 2024**)[[paper](https://dl.acm.org/doi/abs/10.5555/3692070.3692716)]
 * Improving temporal link prediction via temporal walk matrix projection (**NeurIPS 2024**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ff7bf6014f7826da531aa50f4538ee19-Paper-Conference.pdf)]
+* State Space Models on Temporal Graphs: A First-Principles Study (**NeurIPS 2024**) [[paper](https://arxiv.org/pdf/2406.00943)]
 * TimeSGN: Scalable and Effective Temporal Graph Neural Network (**ICDE, 2024**)[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10597745)][[code](https://github.com/LuckyGirl-XU/TimeSGN)]
 * Co-neighbor encoding schema: A light-cost structure encoding method for dynamic link prediction (**KDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3637528.3671770)]
 * ETC: Efficient Training of Temporal Graph Neural Networks over Large-scale Dynamic Graphs (**VLDB, 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p1060-gao.pdf)][[code](https://github.com/eddiegaoo/ETC)]
