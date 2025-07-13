@@ -10,6 +10,8 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
   - [Streaming Graph Learning](#streaming)
   - [Temporal Hypergraph Learning](#hyper)
   - [Continual Learning](#continual)
+  - [Dynamic Text-Attributed Graphs](#DyTAGs)
+  - [Anomaly Detection on Dynamic Graphs](#Anomaly)
 - [Tools](#tools)
 
 
@@ -238,6 +240,19 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * evolve2vec: Learning Network Representations Using Temporal Unfolding (**MMM**) [[paper](https://www.academia.edu/download/83273622/978-3-030-05710-7_37.pdf)]
 
 
+<a name="DyTAGs" />
+#### Dynamic Text-Attributed Graphs
+
+### Benchmarks
+* DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)
+
+#### 2025
+* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation [paper](https://arxiv.org/abs/2502.19651)
+
+#### 2024
+* Llm-driven knowledge distillation for dynamic text-attributed graphs (**AAAI Workshop 2024**) [paper](https://arxiv.org/abs/2502.10914)
+
+
 <a name="hyper" />
 
 ### Temporal Hypergraph Learning
@@ -295,6 +310,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 * Overcoming Catastrophic Forgetting in Graph Neural Networks with Experience Replay (**AAAI, 2021**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16602/16409)][[code](https://github.com/SZU-AdvTech-2023/247-Overcoming-Catastrophic-Forgetting-in-Graph-Neural-Networks-with-Experience-Replay)]
 
 #### 2020
+
 
 <a name="tools" />
 
