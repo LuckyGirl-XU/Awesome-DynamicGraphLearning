@@ -7,11 +7,11 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 - [Four Main Categories of Temporal Graphs](#Publications)
   - [Continuous-time Dynamic Graph Learning](#continuous)
   - [Discrete-time Dynamic Graph Learning](#discrete)
+  - [Dynamic Text-Attributed Graphs](#DyTAGs)
+  - [Anomaly Detection on Dynamic Graphs](#Anomaly)
   - [Streaming Graph Learning](#streaming)
   - [Temporal Hypergraph Learning](#hyper)
   - [Continual Learning](#continual)
-  - [Dynamic Text-Attributed Graphs](#DyTAGs)
-  - [Anomaly Detection on Dynamic Graphs](#Anomaly)
 - [Tools](#tools)
 
 
