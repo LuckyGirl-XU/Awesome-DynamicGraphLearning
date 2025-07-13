@@ -17,7 +17,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 <a name="Publications" />
 
-## Papers
+## Paper List and Code
 
 <a name="continuous" />
 
