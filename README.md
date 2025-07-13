@@ -23,7 +23,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 ### Continuous-time Dynamic Graph Learning
 
-### Survey
+#### Survey
 * Graph Neural Networks Designed for Different Graph Types: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2204.03080.pdf)]
 * Graph Neural Networks for temporal graphs: State of the art, open challenges, and opportunities (**ARXIV, 2023**) [[paper](https://arxiv.org/pdf/2302.01018.pdf)]
 * Graph Neural Networks Designed for Different Graph Types: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2204.03080.pdf)]
@@ -191,7 +191,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 ### Discrete-time Dynamic Graph Learning
 
-### Survey
+#### Survey
 * Deep learning for dynamic graphs: models and benchmarks (**ARXIV, 2024**) [[paper](https://arxiv.org/pdf/2307.06104v2)]
 * Encoder-Decoder Architecture for Supervised Dynamic Graph Learning: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2203.10480)]
 
@@ -242,9 +242,10 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 
 <a name="DyTAGs" />
+
 ### Dynamic Text-Attributed Graph Learning
 
-### Benchmarks
+#### Benchmarks
 * DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)
 
 #### 2025
@@ -257,7 +258,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 ### Anomaly Detection on Dynamic Graphs
 
-### Survey
+#### Survey
 Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [paper](https://dl.acm.org/doi/pdf/10.1145/3669906)
 
 #### 2025
@@ -270,7 +271,8 @@ Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [pap
 
 ### Temporal Hypergraph Learning
 
-### Survey
+#### Survey
+
 
 #### 2025
 * Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction (**KDD, 2025**)[[paper](https://dl.acm.org/doi/10.1145/3690624.3709327)]
