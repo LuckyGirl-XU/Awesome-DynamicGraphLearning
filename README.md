@@ -7,7 +7,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 - [**Seven** Main Categories of Temporal Graphs](#Publications)
   - [Continuous-time Dynamic Graph Learning](#continuous)
   - [Discrete-time Dynamic Graph Learning](#discrete)
-  - [Dynamic Text-Attributed Graphs](#DyTAGs)
+  - [Dynamic Text-Attributed Graph Learning](#DyTAGs)
   - [Anomaly Detection on Dynamic Graphs](#Anomaly)
   - [Streaming Graph Learning](#streaming)
   - [Temporal Hypergraph Learning](#hyper)
@@ -242,7 +242,7 @@ Awesome papers (codes) about machine learning (deep learning) on **time-aware gr
 
 
 <a name="DyTAGs" />
-### Dynamic Text-Attributed Graphs
+### Dynamic Text-Attributed Graph Learning
 
 ### Benchmarks
 * DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)
