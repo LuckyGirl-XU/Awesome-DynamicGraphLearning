@@ -37,6 +37,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2025
 
+* Tgb-seq benchmark: Challenging temporal gnns with complex sequential dynamics （**ICLR 2025**）[[paper](https://arxiv.org/pdf/2502.02975?)]
 * UniDyG: A Unified and Effective Representation Learning Approach for Large Dynamic Graphs (**TKDE, 2025**)[[paper](https://ieeexplore.ieee.org/document/10981615)]
 * Ranking on Dynamic Graphs: An Effective and Robust Band-Pass Disentangled Approach (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714943)] [[code](https://github.com/YayaLee666/BandRank)]
 * On the Cross-Graph Transferability of Dynamic Link Prediction (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714712)]
