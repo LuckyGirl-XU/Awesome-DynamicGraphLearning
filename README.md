@@ -300,6 +300,12 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 * Structural Temporal Graph Neural Networks for Anomaly Detection in Dynamic Graphs (**CIKM 2021**) [[paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481955)][[code](https://github.com/KnowledgeDiscovery/StrGNN)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:kxzU9i3N7RIJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxzMY:AAZF9b8AAAAAaHR31MaLHoDuxHJ-k5QVkFqBO4A&scisig=AAZF9b8AAAAAaHR31Nd0ODy2fbUl5vVEUGESfrA&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
+* F-FADE: Frequency Factorization for Anomaly Detection in Edge Streams (**WSDM 2021**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3437963.3441806)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:xXKStQMiJLcJ:scholar.google.com/&output=citation&scisdr=CgIcK90UEPm3gs6Yq3k:AAZF9b8AAAAAaHSes3nMqdeOsQ6OYwJOX1aQYdw&scisig=AAZF9b8AAAAAaHSes-Lh7sUz71W4BcK4FJj2EwE&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+
+#### 2020
+
+* MIDAS: Microcluster-Based Detector of Anomalies in Edge Streams (**AAAI 2020**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/download/5724/5580)][[code](https://github.com/bhatiasiddharth/MIDAS)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:cD6rI_je33gJ:scholar.google.com/&output=citation&scisdr=CgIcK90UEPm3gs6ZnXg:AAZF9b8AAAAAaHSfhXig_vjXUTykDg_fd2fHKo8&scisig=AAZF9b8AAAAAaHSfhUDuH25KETGR7k0jml1T8sI&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+
 #### 2019
 
 * AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN (**IJCAI 2019**) [[paper](https://www.ijcai.org/proceedings/2019/614)][[code](https://github.com/Ljiajie/Addgraph)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:tW0Z9jLsg4QJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx9Bo:AAZF9b8AAAAAaHR37Br9MAqud0spZHSeqSKUnt4&scisig=AAZF9b8AAAAAaHR37CGsV1GIzQlexNwJcKjNAZ0&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
