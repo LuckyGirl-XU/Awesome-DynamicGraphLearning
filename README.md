@@ -36,14 +36,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### Benchmark
 
-* Tgb-seq benchmark: Challenging temporal gnns with complex sequential dynamics （**ICLR 2025**）[[paper](https://arxiv.org/pdf/2502.02975?)][[code](https://github.com/TGB-Seq/TGB-Seq/tree/master)][[bibtex](@inproceedings{
-yi2025tgbseq,
-title={{TGB}-Seq Benchmark: Challenging Temporal {GNN}s with Complex Sequential Dynamics},
-author={Lu Yi and Jie Peng and Yanping Zheng and Fengran Mo and Zhewei Wei and Yuhang Ye and Yue Zixuan and Zengfeng Huang},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=8e2LirwiJT}
-})]
+* Tgb-seq benchmark: Challenging temporal gnns with complex sequential dynamics （**ICLR 2025**）[[paper](https://arxiv.org/pdf/2502.02975?)][[code](https://github.com/TGB-Seq/TGB-Seq/tree/master)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:1HMOTGOY7msJ:scholar.google.com/&output=citation&scisdr=CgLEqxCoEP-qncFJKn4:AAZF9b8AAAAAaHRPMn6yEkJwsj7hq85ImSixETU&scisig=AAZF9b8AAAAAaHRPMu57goiV85EJU-3-d3rJjbE&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1)]
 
 #### 2025
 
