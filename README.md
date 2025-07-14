@@ -263,56 +263,56 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 ### (4) Anomaly Detection on Dynamic Graphs
 
 #### Survey
-Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3669906)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:wczBQbFHT3kJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVwxdA:AAZF9b8AAAAAaHR23dCpKDnxdKaEdzBhtZ6Xvy8&scisig=AAZF9b8AAAAAaHR23dBPd-BShNFSChS0HueG9kE&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3669906)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:wczBQbFHT3kJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVwxdA:AAZF9b8AAAAAaHR23dCpKDnxdKaEdzBhtZ6Xvy8&scisig=AAZF9b8AAAAAaHR23dBPd-BShNFSChS0HueG9kE&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### 2025
 
-A Generalizable Anomaly Detection Method in Dynamic Graphs (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35508)][[code](https://github.com/YXNTU/GeneralDyG)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:0c1Fu1yd-8sJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVw6U4:AAZF9b8AAAAAaHR28U5yK-GSLHyKFAhsppjPRgE&scisig=AAZF9b8AAAAAaHR28b3o2HYnOUGsMjBIqnpHDMw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* A Generalizable Anomaly Detection Method in Dynamic Graphs (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35508)][[code](https://github.com/YXNTU/GeneralDyG)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:0c1Fu1yd-8sJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVw6U4:AAZF9b8AAAAAaHR28U5yK-GSLHyKFAhsppjPRgE&scisig=AAZF9b8AAAAAaHR28b3o2HYnOUGsMjBIqnpHDMw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Long-term evolutionary patterns matter: Self-supervised anomaly detection on dynamic graphs (**KBS 2025**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125000966)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:eWxb22q0pkoJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxDCI:AAZF9b8AAAAAaHR3FCK00zCWngzfWK8wzPF7-vw&scisig=AAZF9b8AAAAAaHR3FPHxR272GlcSNhllEX9POhw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Long-term evolutionary patterns matter: Self-supervised anomaly detection on dynamic graphs (**KBS 2025**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125000966)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:eWxb22q0pkoJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxDCI:AAZF9b8AAAAAaHR3FCK00zCWngzfWK8wzPF7-vw&scisig=AAZF9b8AAAAAaHR3FPHxR272GlcSNhllEX9POhw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### 2024
 
-SLADE: Detecting Dynamic Anomalies in Edge Streams without Labels via Self-Supervised Learning (**KDD, 2024**) [[paper](https://dl.acm.org/doi/10.1145/3637528.3671845)][[code](https://github.com/jhsk777/SLADE)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:bs1tiv5MgxYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxNvo:AAZF9b8AAAAAaHR3LvpPYxWNWMEDr04Z1LTlmUU&scisig=AAZF9b8AAAAAaHR3Ls0upridOjCo4VlJUYFl2O8&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* SLADE: Detecting Dynamic Anomalies in Edge Streams without Labels via Self-Supervised Learning (**KDD, 2024**) [[paper](https://dl.acm.org/doi/10.1145/3637528.3671845)][[code](https://github.com/jhsk777/SLADE)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:bs1tiv5MgxYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxNvo:AAZF9b8AAAAAaHR3LvpPYxWNWMEDr04Z1LTlmUU&scisig=AAZF9b8AAAAAaHR3Ls0upridOjCo4VlJUYFl2O8&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Learning-Based Link Anomaly Detection in Continuous-Time Dynamic Graphs (**TMLR 2024**) [[paper](https://openreview.net/forum?id=8imVCizVEw)][[code](https://github.com/timpostuvan/CTDG-link-anomaly-detection)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:KQ2YpqVuO4AJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxeCM:AAZF9b8AAAAAaHR3YCNKshx-oP40QqFoqip3XnI&scisig=AAZF9b8AAAAAaHR3YMr0kvtS4YH7hwbKOoVl-2M&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Learning-Based Link Anomaly Detection in Continuous-Time Dynamic Graphs (**TMLR 2024**) [[paper](https://openreview.net/forum?id=8imVCizVEw)][[code](https://github.com/timpostuvan/CTDG-link-anomaly-detection)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:KQ2YpqVuO4AJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxeCM:AAZF9b8AAAAAaHR3YCNKshx-oP40QqFoqip3XnI&scisig=AAZF9b8AAAAAaHR3YMr0kvtS4YH7hwbKOoVl-2M&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Fine-Grained Anomaly Detection on Dynamic Graphs via Attention Alignment (**ICDE 2024**) [[paper](https://ieeexplore.ieee.org/document/10597831)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:4If7EjS_NuYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxmk0:AAZF9b8AAAAAaHR3gk0bPHWvPS7G5yUvAXZFlpk&scisig=AAZF9b8AAAAAaHR3ggtudxaZEWV3_AGpsD31FM4&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Fine-Grained Anomaly Detection on Dynamic Graphs via Attention Alignment (**ICDE 2024**) [[paper](https://ieeexplore.ieee.org/document/10597831)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:4If7EjS_NuYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxmk0:AAZF9b8AAAAAaHR3gk0bPHWvPS7G5yUvAXZFlpk&scisig=AAZF9b8AAAAAaHR3ggtudxaZEWV3_AGpsD31FM4&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-METER: A Dynamic Concept Adaptation Framework for Online Anomaly Detection (**VLDB 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p794-zhu.pdf)]
+* METER: A Dynamic Concept Adaptation Framework for Online Anomaly Detection (**VLDB 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p794-zhu.pdf)]
 
-MAD: Multi-Scale Anomaly Detection in Link Streams (**WSDM 2024**) [[paper](https://dl.acm.org/doi/10.1145/3616855.3635834)]
+* MAD: Multi-Scale Anomaly Detection in Link Streams (**WSDM 2024**) [[paper](https://dl.acm.org/doi/10.1145/3616855.3635834)]
 
 #### 2023
 
-SAD: Semi-Supervised Anomaly Detection on Dynamic Graphs (**IJCAI 2023**) [[paper](https://www.ijcai.org/proceedings/2023/0256)][[code](https://github.com/D10Andy/SAD)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:JPiGCbb_SZYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxj_0:AAZF9b8AAAAAaHR3l_1O-cpgCElL77Y-7rsOyfg&scisig=AAZF9b8AAAAAaHR3lyE1uRHc2sY2poucExPul-k&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* SAD: Semi-Supervised Anomaly Detection on Dynamic Graphs (**IJCAI 2023**) [[paper](https://www.ijcai.org/proceedings/2023/0256)][[code](https://github.com/D10Andy/SAD)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:JPiGCbb_SZYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxj_0:AAZF9b8AAAAAaHR3l_1O-cpgCElL77Y-7rsOyfg&scisig=AAZF9b8AAAAAaHR3lyE1uRHc2sY2poucExPul-k&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Anomaly Detection in Continuous-Time Temporal Provenance Graphs [**NeurIPS 2023 TGL Workshop**] [[paper](https://openreview.net/forum?id=88tGIxxhsf)][[code](https://github.com/JakubReha/ProvCTDG/)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:vkHJlRPYu4AJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxtEQ:AAZF9b8AAAAAaHR3rETbCaweYhWJoVkehC_U37w&scisig=AAZF9b8AAAAAaHR3rD0srODzgAsvp6d_-9PgE1M&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Anomaly Detection in Continuous-Time Temporal Provenance Graphs [**NeurIPS 2023 TGL Workshop**] [[paper](https://openreview.net/forum?id=88tGIxxhsf)][[code](https://github.com/JakubReha/ProvCTDG/)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:vkHJlRPYu4AJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxtEQ:AAZF9b8AAAAAaHR3rETbCaweYhWJoVkehC_U37w&scisig=AAZF9b8AAAAAaHR3rD0srODzgAsvp6d_-9PgE1M&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Sketch-Based Anomaly Detection in Streaming Graphs (**KDD 2023**) [[paper](https://dl.acm.org/doi/10.1145/3580305.3599504)] [[code](https://github.com/Stream-AD/AnoGraph)]
+* Sketch-Based Anomaly Detection in Streaming Graphs (**KDD 2023**) [[paper](https://dl.acm.org/doi/10.1145/3580305.3599504)] [[code](https://github.com/Stream-AD/AnoGraph)]
 
-Anonymous Edge Representation for Inductive Anomaly Detection in Dynamic Bipartite Graph (**VLDB 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p1154-fang.pdf)] [[code](https://github.com/fanglanting/AER)]
+* Anonymous Edge Representation for Inductive Anomaly Detection in Dynamic Bipartite Graph (**VLDB 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p1154-fang.pdf)] [[code](https://github.com/fanglanting/AER)]
 
 
 #### 2021
 
-Anomaly Detection in Dynamic Graphs via Transformer (**TKDE 2021**) [[paper](https://ieeexplore.ieee.org/document/9599560)][[code](https://github.com/yuetan031/TADDY_pytorch)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:EtdB40wHqaMJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx2Ng:AAZF9b8AAAAAaHR3wNhBXxBFEUNLmN1xnki8_gs&scisig=AAZF9b8AAAAAaHR3wCMfxmrKFwMj9MMf5JQrzwo&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Anomaly Detection in Dynamic Graphs via Transformer (**TKDE 2021**) [[paper](https://ieeexplore.ieee.org/document/9599560)][[code](https://github.com/yuetan031/TADDY_pytorch)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:EtdB40wHqaMJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx2Ng:AAZF9b8AAAAAaHR3wNhBXxBFEUNLmN1xnki8_gs&scisig=AAZF9b8AAAAAaHR3wCMfxmrKFwMj9MMf5JQrzwo&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Structural Temporal Graph Neural Networks for Anomaly Detection in Dynamic Graphs (**CIKM 2021**) [[paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481955)][[code](https://github.com/KnowledgeDiscovery/StrGNN)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:kxzU9i3N7RIJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxzMY:AAZF9b8AAAAAaHR31MaLHoDuxHJ-k5QVkFqBO4A&scisig=AAZF9b8AAAAAaHR31Nd0ODy2fbUl5vVEUGESfrA&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* Structural Temporal Graph Neural Networks for Anomaly Detection in Dynamic Graphs (**CIKM 2021**) [[paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481955)][[code](https://github.com/KnowledgeDiscovery/StrGNN)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:kxzU9i3N7RIJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxzMY:AAZF9b8AAAAAaHR31MaLHoDuxHJ-k5QVkFqBO4A&scisig=AAZF9b8AAAAAaHR31Nd0ODy2fbUl5vVEUGESfrA&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### 2019
 
-AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN (**IJCAI 2019**) [[paper](https://www.ijcai.org/proceedings/2019/614)][[code](https://github.com/Ljiajie/Addgraph)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:tW0Z9jLsg4QJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx9Bo:AAZF9b8AAAAAaHR37Br9MAqud0spZHSeqSKUnt4&scisig=AAZF9b8AAAAAaHR37CGsV1GIzQlexNwJcKjNAZ0&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN (**IJCAI 2019**) [[paper](https://www.ijcai.org/proceedings/2019/614)][[code](https://github.com/Ljiajie/Addgraph)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:tW0Z9jLsg4QJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx9Bo:AAZF9b8AAAAAaHR37Br9MAqud0spZHSeqSKUnt4&scisig=AAZF9b8AAAAAaHR37CGsV1GIzQlexNwJcKjNAZ0&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### 2018
 
-NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks (**KDD 2018**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3220024)][[code](https://github.com/kdmsit/NetWalk)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:AF5M-1Bh2hcJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx5mQ:AAZF9b8AAAAAaHR3_mTFthzxD3dRGPJvkCiZ9j8&scisig=AAZF9b8AAAAAaHR3_kxzaVwgzZgKZOt7g9P3a8A&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks (**KDD 2018**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3220024)][[code](https://github.com/kdmsit/NetWalk)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:AF5M-1Bh2hcJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVx5mQ:AAZF9b8AAAAAaHR3_mTFthzxD3dRGPJvkCiZ9j8&scisig=AAZF9b8AAAAAaHR3_kxzaVwgzZgKZOt7g9P3a8A&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-SpotLight: Detecting Anomalies in Streaming Graphs (**KDD 2018**) [[paper](https://dl.acm.org/doi/10.1145/3219819.3220040)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:uTn3iYXyiBIJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bV-DWI:AAZF9b8AAAAAaHR4FWJThdk_jU9rN6fX1VosZMQ&scisig=AAZF9b8AAAAAaHR4FeAtK9zXEgJu-GLWQoHrfDw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* SpotLight: Detecting Anomalies in Streaming Graphs (**KDD 2018**) [[paper](https://dl.acm.org/doi/10.1145/3219819.3220040)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:uTn3iYXyiBIJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bV-DWI:AAZF9b8AAAAAaHR4FWJThdk_jU9rN6fX1VosZMQ&scisig=AAZF9b8AAAAAaHR4FeAtK9zXEgJu-GLWQoHrfDw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### 2017
 
-DynGEM: Deep Embedding Method for Dynamic Graphs (**IJCAI 2017**) [[paper](https://arxiv.org/abs/1805.11273)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:oVUb_CmNZuoJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bV-MWY:AAZF9b8AAAAAaHR4KWYgWKE_VYNkmJnoHb7a0xc&scisig=AAZF9b8AAAAAaHR4KWFA5jQoBrlzgcwgS4C86O8&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+* DynGEM: Deep Embedding Method for Dynamic Graphs (**IJCAI 2017**) [[paper](https://arxiv.org/abs/1805.11273)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:oVUb_CmNZuoJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bV-MWY:AAZF9b8AAAAAaHR4KWYgWKE_VYNkmJnoHb7a0xc&scisig=AAZF9b8AAAAAaHR4KWFA5jQoBrlzgcwgS4C86O8&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 <a name="hyper" />
 
