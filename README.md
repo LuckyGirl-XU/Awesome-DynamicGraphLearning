@@ -267,9 +267,37 @@ Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[pa
 
 #### 2025
 
+A Generalizable Anomaly Detection Method in Dynamic Graphs (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35508)] [[code](https://github.com/YXNTU/GeneralDyG)]
+
+Long-term evolutionary patterns matter: Self-supervised anomaly detection on dynamic graphs (**KBS 2025**) [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125000966)]
+
 #### 2024
 
+SLADE: Detecting Dynamic Anomalies in Edge Streams without Labels via Self-Supervised Learning (**KDD, 2024**) [[paper](https://dl.acm.org/doi/10.1145/3637528.3671845)] [[code](https://github.com/jhsk777/SLADE)]
 
+Learning-Based Link Anomaly Detection in Continuous-Time Dynamic Graphs (**TMLR 2024**) [[paper](https://openreview.net/forum?id=8imVCizVEw)] [[code](https://github.com/timpostuvan/CTDG-link-anomaly-detection)]
+
+Fine-Grained Anomaly Detection on Dynamic Graphs via Attention Alignment (**ICDE 2024**) [[paper](https://ieeexplore.ieee.org/document/10597831)]
+
+#### 2023
+
+SAD: Semi-Supervised Anomaly Detection on Dynamic Graphs (**IJCAI 2023**) [[paper](https://www.ijcai.org/proceedings/2023/0256)] [[code](https://github.com/D10Andy/SAD)]
+
+Anomaly Detection in Continuous-Time Temporal Provenance Graphs [**NeurIPS 2023 TGL Workshop**] [[paper](https://openreview.net/forum?id=88tGIxxhsf)] [[code](https://github.com/JakubReha/ProvCTDG/)]
+
+#### 2021
+
+Anomaly Detection in Dynamic Graphs via Transformer (**TKDE 2021**) [[paper](https://ieeexplore.ieee.org/document/9599560)] [[code](https://github.com/yuetan031/TADDY_pytorch)]
+
+Structural Temporal Graph Neural Networks for Anomaly Detection in Dynamic Graphs (**CIKM 2021**) [[paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481955)] [[code](https://github.com/KnowledgeDiscovery/StrGNN)]
+
+#### 2019
+
+AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN (**IJCAI 2019**) [[paper](https://www.ijcai.org/proceedings/2019/614)] [[code](https://github.com/Ljiajie/Addgraph)]
+
+#### 2018
+
+NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks (**KDD, 2018**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3220024)] [[code](https://github.com/kdmsit/NetWalk)]
 
 <a name="hyper" />
 
@@ -285,7 +313,7 @@ Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[pa
 * Hypergraph Dynamic System (**ICLR, 2024, Poster**) [[paper](https://openreview.net/attachment?id=NLbRvr840Q&name=pdf)]
 #### 2023
 * CAt-Walk: Inductive Hypergraph Learning via Set Walks (**NeurIPS, 2023**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/6739d8df16b5bce3587ca5f18662a6aa-Paper-Conference.pdf)][[code](https://github.com/ubc-systopia/CATWalk)]
-### 2022
+#### 2022
 * Neural Predicting Higher-order Patterns in Temporal Networks (**WWW, 2022**) [[paper](https://dl.acm.org/doi/10.1145/3485447.3512181)][[code](https://github.com/Graph-COM/Neural_Higher-order_Pattern_Prediction)]
 #### 2019
 * Dynamic Hypergraph Neural Networks (**IJCAI, 2019**) [[paper](https://www.ijcai.org/Proceedings/2019/0366.pdf)][[code](https://github.com/iMoonLab/DHGNN#:~:text=%20DHGNN%3A%20Dynamic%20Hypergraph%20Neural%20Networks%20%201,%28Zhilin%20Yang%2C%20William%20W.%20-%20Cohen%2C...%20More%20)]
