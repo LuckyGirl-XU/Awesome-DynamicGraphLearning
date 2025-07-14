@@ -279,11 +279,20 @@ Learning-Based Link Anomaly Detection in Continuous-Time Dynamic Graphs (**TMLR 
 
 Fine-Grained Anomaly Detection on Dynamic Graphs via Attention Alignment (**ICDE 2024**) [[paper](https://ieeexplore.ieee.org/document/10597831)]
 
+METER: A Dynamic Concept Adaptation Framework for Online Anomaly Detection (**VLDB 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p794-zhu.pdf)]
+
+MAD: Multi-Scale Anomaly Detection in Link Streams (**WSDM 2024**) [[paper](https://dl.acm.org/doi/10.1145/3616855.3635834)]
+
 #### 2023
 
 SAD: Semi-Supervised Anomaly Detection on Dynamic Graphs (**IJCAI 2023**) [[paper](https://www.ijcai.org/proceedings/2023/0256)] [[code](https://github.com/D10Andy/SAD)]
 
 Anomaly Detection in Continuous-Time Temporal Provenance Graphs [**NeurIPS 2023 TGL Workshop**] [[paper](https://openreview.net/forum?id=88tGIxxhsf)] [[code](https://github.com/JakubReha/ProvCTDG/)]
+
+Sketch-Based Anomaly Detection in Streaming Graphs (**KDD 2023**) [[paper](https://dl.acm.org/doi/10.1145/3580305.3599504)] [[code](https://github.com/Stream-AD/AnoGraph)]
+
+Anonymous Edge Representation for Inductive Anomaly Detection in Dynamic Bipartite Graph (**VLDB 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p1154-fang.pdf)] [[code](https://github.com/fanglanting/AER)]
+
 
 #### 2021
 
