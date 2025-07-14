@@ -40,7 +40,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2025
 
-* UniDyG: A Unified and Effective Representation Learning Approach for Large Dynamic Graphs (**TKDE, 2025**)[[paper](https://ieeexplore.ieee.org/document/10981615)]
+* UniDyG: A Unified and Effective Representation Learning Approach for Large Dynamic Graphs (**TKDE, 2025**)[[paper](https://ieeexplore.ieee.org/document/10981615)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:laT39JVyiDAJ:scholar.google.com/&output=citation&scisdr=CgLEqxCoEP-qncFJrYo:AAZF9b8AAAAAaHRPtYqVrVMfMYsfIML-A2bzyZ0&scisig=AAZF9b8AAAAAaHRPtSLszM4H6pB-GhZZPRF4QAU&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1)]
 * Ranking on Dynamic Graphs: An Effective and Robust Band-Pass Disentangled Approach (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714943)] [[code](https://github.com/YayaLee666/BandRank)]
 * On the Cross-Graph Transferability of Dynamic Link Prediction (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714712)]
 * Node-Time Conditional Prompt Learning In Dynamic Graphs (**ICLR, 2025**) [[paper](https://arxiv.org/abs/2405.13937)]
