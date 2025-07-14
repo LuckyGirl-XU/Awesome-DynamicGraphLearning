@@ -279,9 +279,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 * Fine-Grained Anomaly Detection on Dynamic Graphs via Attention Alignment (**ICDE 2024**) [[paper](https://ieeexplore.ieee.org/document/10597831)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:4If7EjS_NuYJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxmk0:AAZF9b8AAAAAaHR3gk0bPHWvPS7G5yUvAXZFlpk&scisig=AAZF9b8AAAAAaHR3ggtudxaZEWV3_AGpsD31FM4&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-* METER: A Dynamic Concept Adaptation Framework for Online Anomaly Detection (**VLDB 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p794-zhu.pdf)]
+* METER: A Dynamic Concept Adaptation Framework for Online Anomaly Detection (**VLDB 2024**) [[paper](https://www.vldb.org/pvldb/vol17/p794-zhu.pdf)] [[code](https://github.com/zjiaqi725/METER)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:yFASd5ijrokJ:scholar.google.com/&output=citation&scisdr=CgIcK90UEPm3gs6bS6Q:AAZF9b8AAAAAaHSdU6TSjt3_fORip9tQgfwqJjI&scisig=AAZF9b8AAAAAaHSdU6F9hfmltMzR75pMiDPLh3A&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-* MAD: Multi-Scale Anomaly Detection in Link Streams (**WSDM 2024**) [[paper](https://dl.acm.org/doi/10.1145/3616855.3635834)]
+* MAD: Multi-Scale Anomaly Detection in Link Streams (**WSDM 2024**) [[paper](https://dl.acm.org/doi/10.1145/3616855.3635834)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:LfQ4wbqKLBwJ:scholar.google.com/&output=citation&scisdr=CgIcK90UEPm3gs6bkQw:AAZF9b8AAAAAaHSdiQzN4fZs5dTqE_tLlGoBB9A&scisig=AAZF9b8AAAAAaHSdiX24aQud7FAxjROZragHcXY&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### 2023
 
@@ -289,9 +289,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 * Anomaly Detection in Continuous-Time Temporal Provenance Graphs [**NeurIPS 2023 TGL Workshop**] [[paper](https://openreview.net/forum?id=88tGIxxhsf)][[code](https://github.com/JakubReha/ProvCTDG/)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:vkHJlRPYu4AJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVxtEQ:AAZF9b8AAAAAaHR3rETbCaweYhWJoVkehC_U37w&scisig=AAZF9b8AAAAAaHR3rD0srODzgAsvp6d_-9PgE1M&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-* Sketch-Based Anomaly Detection in Streaming Graphs (**KDD 2023**) [[paper](https://dl.acm.org/doi/10.1145/3580305.3599504)] [[code](https://github.com/Stream-AD/AnoGraph)]
+* Sketch-Based Anomaly Detection in Streaming Graphs (**KDD 2023**) [[paper](https://dl.acm.org/doi/10.1145/3580305.3599504)] [[code](https://github.com/Stream-AD/AnoGraph)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:x804c1ttSZYJ:scholar.google.com/&output=citation&scisdr=CgIcK90UEPm3gs6brlM:AAZF9b8AAAAAaHSdtlNKRj6Ppo5vyklrUG1IBo8&scisig=AAZF9b8AAAAAaHSdthxBQXSGwKIaUbGPOCx-XtY&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-* Anonymous Edge Representation for Inductive Anomaly Detection in Dynamic Bipartite Graph (**VLDB 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p1154-fang.pdf)] [[code](https://github.com/fanglanting/AER)]
+* Anonymous Edge Representation for Inductive Anomaly Detection in Dynamic Bipartite Graph (**VLDB 2023**) [[paper](https://www.vldb.org/pvldb/vol16/p1154-fang.pdf)] [[code](https://github.com/fanglanting/AER)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:cxEIK3PCvYoJ:scholar.google.com/&output=citation&scisdr=CgIcK90UEPm3gs6bwJ0:AAZF9b8AAAAAaHSd2J2u1jzrMRGN3aJa7ok6tM4&scisig=AAZF9b8AAAAAaHSd2F7yqnCCMEJf5dfw2puwTD4&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 
 #### 2021
