@@ -297,7 +297,13 @@ AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN 
 
 #### 2018
 
-NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks (**KDD, 2018**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3220024)] [[code](https://github.com/kdmsit/NetWalk)]
+NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks (**KDD 2018**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3220024)] [[code](https://github.com/kdmsit/NetWalk)]
+
+SpotLight: Detecting Anomalies in Streaming Graphs (**KDD 2018**) [[paper](https://dl.acm.org/doi/10.1145/3219819.3220040)]
+
+#### 2017
+
+DynGEM: Deep Embedding Method for Dynamic Graphs (**IJCAI 2017**) [[paper](https://arxiv.org/abs/1805.11273)]
 
 <a name="hyper" />
 
