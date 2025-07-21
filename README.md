@@ -200,7 +200,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Encoder-Decoder Architecture for Supervised Dynamic Graph Learning: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2203.10480)]
 
 #### 2025 
-* TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML**)[[Paper](https://arxiv.org/pdf/2506.00453)]
+* TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML**) [[Paper](https://arxiv.org/pdf/2506.00453)]
+* Delay-DSGN: A Dynamic Spiking Graph Neural Network with Delay Mechanisms for Evolving Graph (**ICML**) [[Paper](https://openreview.net/pdf?id=skoBTs4ke4)]
 
 #### 2024
 * Deep Temporal Graph Clustering (**ICLR**) [[paper](https://openreview.net/attachment?id=ViNe1fjGME&name=pdf)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
