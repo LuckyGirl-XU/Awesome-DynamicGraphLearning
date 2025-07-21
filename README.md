@@ -44,6 +44,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Ranking on Dynamic Graphs: An Effective and Robust Band-Pass Disentangled Approach (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714943)] [[code](https://github.com/YayaLee666/BandRank)]
 * On the Cross-Graph Transferability of Dynamic Link Prediction (**WWW, 2025**) [[paper](https://dl.acm.org/doi/10.1145/3696410.3714712)]
 * Node-Time Conditional Prompt Learning In Dynamic Graphs (**ICLR, 2025**) [[paper](https://arxiv.org/abs/2405.13937)]
+* Analytical Construction on Geometric Architectures: Transitioning from Static to Temporal Link Prediction (**ICML, 2025**)[[Paper](https://openreview.net/pdf?id=0d0L3U3MAM)]
 
 #### 2024
 
