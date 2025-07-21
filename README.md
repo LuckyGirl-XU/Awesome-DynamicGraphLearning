@@ -199,6 +199,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Deep learning for dynamic graphs: models and benchmarks (**ARXIV, 2024**) [[paper](https://arxiv.org/pdf/2307.06104v2)]
 * Encoder-Decoder Architecture for Supervised Dynamic Graph Learning: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2203.10480)]
 
+#### 2025 
+* TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML**)[[Paper](https://arxiv.org/pdf/2506.00453)]
+
 #### 2024
 * Deep Temporal Graph Clustering (**ICLR**) [[paper](https://openreview.net/attachment?id=ViNe1fjGME&name=pdf)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
 * On the Feasibility of Simple Transformer for Dynamic Graph Modeling (**WWW**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3589334.3645622)][[code](https://github.com/YuxiaWu/SimpleDyG)]
