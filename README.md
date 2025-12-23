@@ -260,10 +260,11 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)]
 
 #### 2025
-* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation [[paper](https://arxiv.org/abs/2502.19651)]
+* Unifying Text Semantics and Graph Structures for Temporal Text-attributed Graphs with Large Language Models (**NeurIPS 2025**)[[paper](https://arxiv.org/pdf/2503.14411)]
+* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation (**AAAI 2026**)[[paper](https://arxiv.org/pdf/2502.19651)]
 
 #### 2024
-* Llm-driven knowledge distillation for dynamic text-attributed graphs (**AAAI Workshop 2024**) [[paper](https://arxiv.org/abs/2502.10914)]
+* Llm-driven knowledge distillation for dynamic text-attributed graphs (**AAAI Workshop 2025**) [[paper](https://arxiv.org/abs/2502.10914)]
 
 <a name= "Anomaly" />
 
