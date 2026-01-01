@@ -40,6 +40,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2025
 
+* Triangle Matters! TopDyG: Topology-aware Transformer for Link Prediction on Dynamic Graphs(**WWW, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737084)]
+* On the scalability of temporal relative positional encoding for dynamic link prediction (**KDD 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737069)]
+* Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks (**KDD 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737064)]
 * TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction (**NeurIPS, 2025**)[[paper](https://arxiv.org/pdf/2510.23577)]
 * SALoM: Structure Aware Temporal Graph Networks with Long-Short Memory Updater (**NeurIPS, 2025**)[[paper](https://openreview.net/forum?id=hvaEMv4MVD)]
 * UniDyG: A Unified and Effective Representation Learning Approach for Large Dynamic Graphs (**TKDE, 2025**)[[paper](https://ieeexplore.ieee.org/document/10981615)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:laT39JVyiDAJ:scholar.google.com/&output=citation&scisdr=CgLEqxCoEP-qncFJrYo:AAZF9b8AAAAAaHRPtYqVrVMfMYsfIML-A2bzyZ0&scisig=AAZF9b8AAAAAaHRPtSLszM4H6pB-GhZZPRF4QAU&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1)]
@@ -204,6 +207,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Encoder-Decoder Architecture for Supervised Dynamic Graph Learning: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2203.10480)]
 
 #### 2025 
+* SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training (**SIGMOD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3725360)]
+* Sgd-dyg: Self-reliant global dependency apprehending on dynamic graphs (**KDD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737126)]
 * TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML**) [[Paper](https://arxiv.org/pdf/2506.00453)]
 * Delay-DSGN: A Dynamic Spiking Graph Neural Network with Delay Mechanisms for Evolving Graph (**ICML**) [[Paper](https://openreview.net/pdf?id=skoBTs4ke4)]
 
