@@ -38,6 +38,10 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 * Tgb-seq benchmark: Challenging temporal gnns with complex sequential dynamics （**ICLR 2025**）[[paper](https://arxiv.org/pdf/2502.02975?)][[code](https://github.com/TGB-Seq/TGB-Seq/tree/master)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:1HMOTGOY7msJ:scholar.google.com/&output=citation&scisdr=CgLEqxCoEP-qncFJKn4:AAZF9b8AAAAAaHRPMn6yEkJwsj7hq85ImSixETU&scisig=AAZF9b8AAAAAaHRPMu57goiV85EJU-3-d3rJjbE&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1)]
 
+#### 2026
+
+*
+
 #### 2025
 
 * Triangle Matters! TopDyG: Topology-aware Transformer for Link Prediction on Dynamic Graphs(**WWW, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737084)]
@@ -206,6 +210,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Deep learning for dynamic graphs: models and benchmarks (**ARXIV, 2024**) [[paper](https://arxiv.org/pdf/2307.06104v2)]
 * Encoder-Decoder Architecture for Supervised Dynamic Graph Learning: A Survey (**ARXIV, 2022**) [[paper](https://arxiv.org/pdf/2203.10480)]
 
+#### 2026
+* Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation (**VLDB, 2026**)
+
 #### 2025 
 * SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training (**SIGMOD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3725360)]
 * Sgd-dyg: Self-reliant global dependency apprehending on dynamic graphs (**KDD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737126)]
@@ -265,9 +272,12 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 #### Benchmarks
 * DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)]
 
+#### 2026
+* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation (**AAAI 2026**)[[paper](https://arxiv.org/pdf/2502.19651)]
+
 #### 2025
 * Unifying Text Semantics and Graph Structures for Temporal Text-attributed Graphs with Large Language Models (**NeurIPS 2025**)[[paper](https://arxiv.org/pdf/2503.14411)]
-* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation (**AAAI 2026**)[[paper](https://arxiv.org/pdf/2502.19651)]
+
 
 #### 2024
 * Llm-driven knowledge distillation for dynamic text-attributed graphs (**AAAI Workshop 2025**) [[paper](https://arxiv.org/abs/2502.10914)]
