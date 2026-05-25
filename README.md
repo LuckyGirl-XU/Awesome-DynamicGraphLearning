@@ -55,6 +55,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Node-Time Conditional Prompt Learning In Dynamic Graphs (**ICLR, 2025**) [[paper](https://arxiv.org/abs/2405.13937)]
 * Analytical Construction on Geometric Architectures: Transitioning from Static to Temporal Link Prediction (**ICML, 2025**)[[Paper](https://openreview.net/pdf?id=0d0L3U3MAM)]
 * Learnable Spatial-Temporal Positional Encoding for Link Prediction (**ICML, 2025**) [[Paper](https://openreview.net/pdf?id=EoxpGWgeCH)]
+* DyG-Mamba: Continuous State Space Modeling on Dynamic Graphs (**NeurIPS, 2025**) [[paper](https://arxiv.org/pdf/2408.06966)] [[code](https://github.com/Clearloveyuan/DyG-Mamba)]
+* Revisiting Dynamic Graph Clustering via Matrix Factorization (**WWW, 2025**) [[paper](https://arxiv.org/pdf/2502.06117)] [[code](https://github.com/Clearloveyuan/DyG-MF)]
+
 
 #### 2024
 
