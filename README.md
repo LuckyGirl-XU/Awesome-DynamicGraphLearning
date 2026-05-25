@@ -56,7 +56,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Analytical Construction on Geometric Architectures: Transitioning from Static to Temporal Link Prediction (**ICML, 2025**)[[Paper](https://openreview.net/pdf?id=0d0L3U3MAM)]
 * Learnable Spatial-Temporal Positional Encoding for Link Prediction (**ICML, 2025**) [[Paper](https://openreview.net/pdf?id=EoxpGWgeCH)]
 * DyG-Mamba: Continuous State Space Modeling on Dynamic Graphs (**NeurIPS, 2025**) [[paper](https://arxiv.org/pdf/2408.06966)] [[code](https://github.com/Clearloveyuan/DyG-Mamba)]
-* Revisiting Dynamic Graph Clustering via Matrix Factorization (**WWW, 2025**) [[paper](https://arxiv.org/pdf/2502.06117)] [[code](https://github.com/Clearloveyuan/DyG-MF)]
+
 
 
 #### 2024
@@ -221,6 +221,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Sgd-dyg: Self-reliant global dependency apprehending on dynamic graphs (**KDD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737126)]
 * TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML**) [[Paper](https://arxiv.org/pdf/2506.00453)]
 * Delay-DSGN: A Dynamic Spiking Graph Neural Network with Delay Mechanisms for Evolving Graph (**ICML**) [[Paper](https://openreview.net/pdf?id=skoBTs4ke4)]
+* Revisiting Dynamic Graph Clustering via Matrix Factorization (**WWW, 2025**) [[paper](https://arxiv.org/pdf/2502.06117)] [[code](https://github.com/Clearloveyuan/DyG-MF)]
 
 #### 2024
 * Deep Temporal Graph Clustering (**ICLR**) [[paper](https://openreview.net/attachment?id=ViNe1fjGME&name=pdf)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
