@@ -311,7 +311,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * A Dual-Channel Contrastive Learning Framework for Anomaly Detection in Dynamic Graph Structures (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792532)]
 * CIFAD: Causal-Invariant Subspace Learning for Few-ShotAnomaly Detection on Dynamic Relational Graphs (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792442)]
 * Retrieval-Augmented Contrastive Learning for Dynamic Graph Anomaly Detection (**SIGIR 2026**)
-* FreqTAD: Multi-scale Frequency Encoding and Time-Frequency Attention for Anomaly Detection in Dynamic Graphs (**AAAI 2026**) [paper](https://ojs.aaai.org/index.php/AAAI/article/view/38529)]
+* FreqTAD: Multi-scale Frequency Encoding and Time-Frequency Attention for Anomaly Detection in Dynamic Graphs (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38529)]
 
 
 #### 2025
