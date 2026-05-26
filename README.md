@@ -42,6 +42,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 * Revisiting Node Affinity Prediction in Temporal Graphs (**ICLR, 2026**) [[paper](https://arxiv.org/pdf/2510.06940)]
 * TGM: a Modular and Efficient Library for Machine Learning on Temporal Graphs (**ICLR, 2026**) [[paper](https://arxiv.org/pdf/2510.07586)]
+* Graph Retention Networks for Dynamic Graphs (**WWW, 2026**) [[paper](https://arxiv.org/pdf/2411.11259)]
+* TAWRMAC: A Novel Dynamic Graph Representation Learning (**WWW, 2026**) [[paper](https://dl.acm.org/doi/10.1145/3774904.3792163)]
 
 #### 2025
 
@@ -218,6 +220,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation (**VLDB, 2026**)
 * Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton (**ICLR, 2026**) [[paper](https://iclr.cc/virtual/2026/poster/10008743)]
 * Training-free Counterfactual Explanation for Temporal Graph Model Inference (**ICLR, 2026**) [[paper](https://openreview.net/pdf?id=NqtYz3A8tQ)]
+* Node Role-Guided LLMs for Dynamic Graph Clustering (**KDD, 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792704)]
 
 #### 2025 
 * SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training (**SIGMOD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3725360)]
@@ -297,10 +300,16 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Anomaly detection in dynamic graphs: A comprehensive survey (**TKDD 2024**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3669906)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:wczBQbFHT3kJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVwxdA:AAZF9b8AAAAAaHR23dCpKDnxdKaEdzBhtZ6Xvy8&scisig=AAZF9b8AAAAAaHR23dBPd-BShNFSChS0HueG9kE&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 #### Benchmark
-* BAG: Benchmarking Anomaly Detection on Dynamic Graphs (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38510)]
+* BAG: Benchmarking Anomaly Detection on Dynamic Graphs (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38510)] [[code](https://github.com/frhuaaa/BAG)]
 
 #### 2026
 * ARES: Anomaly Recognition Model For Edge Streams (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3770854.3780242)]
+* DP-DGAD: A Generalist Dynamic Graph Anomaly Detector with Dynamic Prototypes (**KDD 2026**) [[paper](https://dl.acm.org/doi/10.1145/3774904.3792268)]
+* Mitigating Dynamic Graph Distribution Shifts via Mixture ofVariational Experts (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792190)]
+* A Dual-Channel Contrastive Learning Framework for Anomaly Detection in Dynamic Graph Structures (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792532)]
+* CIFAD: Causal-Invariant Subspace Learning for Few-ShotAnomaly Detection on Dynamic Relational Graphs (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792442)]
+* Retrieval-Augmented Contrastive Learning for Dynamic Graph Anomaly Detection (**SIGIR 2026**)
+
 
 #### 2025
 
@@ -363,6 +372,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### Survey
 
+#### 2026
+* TDHGNN: A Temporal Directed Hypergraph Neural Network for Bitcoin Fraud Detection (**SIGIR, 2026**)
 
 #### 2025
 * Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction (**KDD, 2025**)[[paper](https://dl.acm.org/doi/10.1145/3690624.3709327)]
