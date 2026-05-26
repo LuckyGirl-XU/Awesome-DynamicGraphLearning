@@ -40,7 +40,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2026
 
-*
+* Revisiting Node Affinity Prediction in Temporal Graphs (**ICLR, 2026**) [[paper](https://arxiv.org/pdf/2510.06940)]
+* TGM: a Modular and Efficient Library for Machine Learning on Temporal Graphs (**ICLR, 2026**) [[paper](https://arxiv.org/pdf/2510.07586)]
 
 #### 2025
 
@@ -215,6 +216,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2026
 * Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation (**VLDB, 2026**)
+* Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton (**ICLR, 2026**) [[paper](https://iclr.cc/virtual/2026/poster/10008743)]
+* Training-free Counterfactual Explanation for Temporal Graph Model Inference (**ICLR, 2026**) [[paper](https://openreview.net/pdf?id=NqtYz3A8tQ)]
 
 #### 2025 
 * SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training (**SIGMOD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3725360)]
