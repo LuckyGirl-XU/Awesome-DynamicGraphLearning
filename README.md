@@ -299,6 +299,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 #### Benchmark
 * BAG: Benchmarking Anomaly Detection on Dynamic Graphs (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38510)]
 
+#### 2026
+* ARES: Anomaly Recognition Model For Edge Streams (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3770854.3780242)]
+
 #### 2025
 
 * A Generalizable Anomaly Detection Method in Dynamic Graphs (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/35508)][[code](https://github.com/YXNTU/GeneralDyG)][[bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:0c1Fu1yd-8sJ:scholar.google.com/&output=citation&scisdr=CgIrWgjFELra9bVw6U4:AAZF9b8AAAAAaHR28U5yK-GSLHyKFAhsppjPRgE&scisig=AAZF9b8AAAAAaHR28b3o2HYnOUGsMjBIqnpHDMw&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
