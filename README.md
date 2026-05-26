@@ -59,6 +59,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Analytical Construction on Geometric Architectures: Transitioning from Static to Temporal Link Prediction (**ICML, 2025**)[[Paper](https://openreview.net/pdf?id=0d0L3U3MAM)]
 * Learnable Spatial-Temporal Positional Encoding for Link Prediction (**ICML, 2025**) [[Paper](https://openreview.net/pdf?id=EoxpGWgeCH)]
 * DyG-Mamba: Continuous State Space Modeling on Dynamic Graphs (**NeurIPS, 2025**) [[paper](https://arxiv.org/pdf/2408.06966)] [[code](https://github.com/Clearloveyuan/DyG-Mamba)]
+* Efficient Dynamic Graph Learning with Refined Batch Parallel Training (**IJCAI, 2025**) [[paper](https://www.ijcai.org/proceedings/2025/312)]
 
 
 
@@ -225,9 +226,10 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 #### 2025 
 * SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training (**SIGMOD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3725360)]
 * Sgd-dyg: Self-reliant global dependency apprehending on dynamic graphs (**KDD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3711896.3737126)]
-* TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML**) [[Paper](https://arxiv.org/pdf/2506.00453)]
-* Delay-DSGN: A Dynamic Spiking Graph Neural Network with Delay Mechanisms for Evolving Graph (**ICML**) [[Paper](https://openreview.net/pdf?id=skoBTs4ke4)]
+* TMetaNet: Topological Meta-Learning Framework for Dynamic Link Prediction (**ICML 2025**) [[Paper](https://arxiv.org/pdf/2506.00453)]
+* Delay-DSGN: A Dynamic Spiking Graph Neural Network with Delay Mechanisms for Evolving Graph (**ICML 2025**) [[Paper](https://openreview.net/pdf?id=skoBTs4ke4)]
 * Revisiting Dynamic Graph Clustering via Matrix Factorization (**WWW, 2025**) [[paper](https://arxiv.org/pdf/2502.06117)] [[code](https://github.com/Clearloveyuan/DyG-MF)]
+* MaskDGNN: Self-Supervised Dynamic Graph Neural Networks with Activeness-aware Temporal Masking (**IJCAI, 2025**) [[paper](https://www.ijcai.org/proceedings/2025/0322.pdf)] 
 
 #### 2024
 * Deep Temporal Graph Clustering (**ICLR**) [[paper](https://openreview.net/attachment?id=ViNe1fjGME&name=pdf)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
@@ -309,6 +311,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * A Dual-Channel Contrastive Learning Framework for Anomaly Detection in Dynamic Graph Structures (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792532)]
 * CIFAD: Causal-Invariant Subspace Learning for Few-ShotAnomaly Detection on Dynamic Relational Graphs (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792442)]
 * Retrieval-Augmented Contrastive Learning for Dynamic Graph Anomaly Detection (**SIGIR 2026**)
+* FreqTAD: Multi-scale Frequency Encoding and Time-Frequency Attention for Anomaly Detection in Dynamic Graphs (**AAAI 2026**) [paper](https://ojs.aaai.org/index.php/AAAI/article/view/38529)]
 
 
 #### 2025
