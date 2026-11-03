@@ -44,6 +44,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * TGM: a Modular and Efficient Library for Machine Learning on Temporal Graphs (**ICLR, 2026**) [[paper](https://arxiv.org/pdf/2510.07586)]
 * Graph Retention Networks for Dynamic Graphs (**WWW, 2026**) [[paper](https://arxiv.org/pdf/2411.11259)]
 * TAWRMAC: A Novel Dynamic Graph Representation Learning (**WWW, 2026**) [[paper](https://dl.acm.org/doi/10.1145/3774904.3792163)]
+* S3Former: Sequential, Structural, and Statistical Fusion for Continuous-Time Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=56lSllQiF5)]
+* Weisfeiler and Leman Follow the Arrow of Time: Expressive Power of Message Passing in Temporal Event Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=W5jWeq8Ty5)]
 
 #### 2025
 
@@ -222,6 +224,10 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton (**ICLR, 2026**) [[paper](https://iclr.cc/virtual/2026/poster/10008743)]
 * Training-free Counterfactual Explanation for Temporal Graph Model Inference (**ICLR, 2026**) [[paper](https://openreview.net/pdf?id=NqtYz3A8tQ)]
 * Node Role-Guided LLMs for Dynamic Graph Clustering (**KDD, 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792704)]
+* A Topological Encoder Decoder Framework for Temporal Graph Learning (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=cZEj9pgOP7)] [[code](https://github.com/FDataLab/TopoGED)]
+* Chasing Label Shifters: A Change-Aware Framework for Dynamic Graph Node Classification (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=hkeWDm9UGm)] [[code](https://github.com/jhkim611/CHASE)]
+* Neighbor-Aware Snapshot-Based Temporal Graph Learning (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=jAt84Y6AVj)]
+* When, Where, What: Structural Guarantees for Travel Time Prediction on Temporal Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=7W9m004XiM)]
 
 #### 2025 
 * SWASH: A Flexible Communication Framework with Sliding Window-Based Cache Sharing for Scalable DGNN Training (**SIGMOD, 2025**) [[paper](https://dl.acm.org/doi/pdf/10.1145/3725360)]
@@ -286,6 +292,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2026
 * Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation (**AAAI 2026**)[[paper](https://arxiv.org/pdf/2502.19651)]
+* MM-DyGraph: A Dataset, Benchmark, and Model for Multimodal Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=0G5dV4PwJv)]
+* REGATE: Confidence-Calibrated Integration of Temporally-Aligned Exogenous Texts for Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=hi0wCR0EYw)]
 
 #### 2025
 * Unifying Text Semantics and Graph Structures for Temporal Text-attributed Graphs with Large Language Models (**NeurIPS 2025**)[[paper](https://arxiv.org/pdf/2503.14411)]
@@ -312,6 +320,8 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * CIFAD: Causal-Invariant Subspace Learning for Few-ShotAnomaly Detection on Dynamic Relational Graphs (**KDD 2026**) [[paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792442)]
 * Retrieval-Augmented Contrastive Learning for Dynamic Graph Anomaly Detection (**SIGIR 2026**)
 * FreqTAD: Multi-scale Frequency Encoding and Time-Frequency Attention for Anomaly Detection in Dynamic Graphs (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/38529)]
+* Combating Camouflage and Forgetting: Spatio-Temporal Dual Denoising for Money Laundering Detection (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=PL6k93ECq7)]
+* Feature-Context Consistency: Unsupervised Adversarial Detection with Drift Stability on Attributed Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=wOczaNixQw)] [[code](https://github.com/serval-uni-lu/CB-RBM)]
 
 
 #### 2025
@@ -377,6 +387,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 #### 2026
 * TDHGNN: A Temporal Directed Hypergraph Neural Network for Bitcoin Fraud Detection (**SIGIR, 2026**)
+* Hermes: A Multi-Scale Spatial-Temporal Hypergraph Network for Stock Time Series Forecasting (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=nMUDgtUWOF)] [[code (anonymous, early submission)](https://anonymous.4open.science/r/Hermes-E150)]
 
 #### 2025
 * Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction (**KDD, 2025**)[[paper](https://dl.acm.org/doi/10.1145/3690624.3709327)]
@@ -395,6 +406,13 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 ### (6) Streaming Graph Learning
 
 ### Survey
+
+#### 2026
+* Efficient Dynamic Algorithms for Graph Neural Networks with Non-Linearity (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=DC1kP2puyf)]
+* Faster Dynamic Graph Clustering with Hierarchical Graph Contraction (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=JDWJEQwXiU)]
+* Online Learning with Certified Unlearning over Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=Y9ZVSXcXaD)]
+
+#### 2025
 
 #### 2024
 
@@ -416,6 +434,12 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 
 ### Benchmarks
 * Towards Robust Graph Incremental Learning on Evolving Graphs (**NeurIPS, 2022**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/548a41b9cac6f50dccf7e63e9e1b1b9b-Paper-Datasets_and_Benchmarks.pdf)][[code](https://github.com/Cinnamon/ugcl)]
+
+#### 2026
+* Efficient Memory Crystallization for Graph Learning under Non-Stationary Distribution Shifts (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=nG6LsRFiOk)] [[code](https://github.com/name-is-what/EMC)]
+* UFO: A Unified Flow-Oriented Framework for Robust Continual Graph Learning (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=38kpqzHh0B)]
+
+#### 2025
 
 #### 2024
 
