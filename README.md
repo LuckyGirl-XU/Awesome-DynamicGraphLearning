@@ -46,6 +46,9 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * TAWRMAC: A Novel Dynamic Graph Representation Learning (**WWW, 2026**) [[paper](https://dl.acm.org/doi/10.1145/3774904.3792163)]
 * S3Former: Sequential, Structural, and Statistical Fusion for Continuous-Time Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=56lSllQiF5)]
 * Weisfeiler and Leman Follow the Arrow of Time: Expressive Power of Message Passing in Temporal Event Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=W5jWeq8Ty5)]
+* A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=YfsyoH7YFs)]
+* Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=q45V4tagJs)]
+* Learning Global Temporal Dynamics in Sparse Networks via Cycle Counts (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=lybAtXLgRc)] [[code](https://github.com/ltp-THU/network_cycle_repro)]
 
 #### 2025
 
