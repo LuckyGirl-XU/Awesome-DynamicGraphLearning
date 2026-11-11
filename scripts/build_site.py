@@ -20,7 +20,13 @@ TOPICS = {
     "anomaly-detection": "Anomaly detection",
     "temporal-hypergraphs": "Temporal hypergraphs",
     "streaming": "Streaming graph learning",
-    "continual-learning": "Continual graph learning",
+    "continual-learning": "Continual & open-world temporal graph learning",
+    "unlearning": "Dynamic & temporal graph unlearning",
+}
+CTDG_TASKS = {
+    "link-prediction": "Link Prediction",
+    "node-affinity": "Node Affinity Prediction",
+    "multi-task": "Multi-task Learning",
 }
 HIGHLIGHTS_START = "<!-- RECENT_PAPERS:START -->"
 HIGHLIGHTS_END = "<!-- RECENT_PAPERS:END -->"
@@ -74,6 +80,13 @@ def read_catalog(root=ROOT):
     for paper in papers:
         paper["has_code"] = any(link["label"].lower().startswith("code") for link in paper["links"])
         paper["acronym"] = "TCSD" if any(link["url"] == "https://github.com/LuckyGirl-XU/TCSD" for link in paper["links"]) else ""
+        paper["tasks"] = []
+        if "continuous-time" in paper["topics"]:
+            for task, pattern in (("link-prediction", r"link[ -]+prediction"),
+                                  ("node-affinity", r"node[ -]+affinity"),
+                                  ("multi-task", r"multi[ -]+task")):
+                if re.search(pattern, paper["title"], re.IGNORECASE):
+                    paper["tasks"].append(task)
     return sorted(papers, key=lambda p: (-(p["year"] or 0), p["title"].casefold()))
 
 
@@ -95,7 +108,7 @@ def read_highlights(papers, root=ROOT):
             raise ValueError(f"Highlight must match exactly one catalog record: {selection['title']}")
         highlights.append({**matches[0], **selection})
     if {item["topic"] for item in highlights} != set(TOPICS):
-        raise ValueError("Highlights must represent all seven research topics")
+        raise ValueError("Highlights must represent every research topic")
     return highlights
 
 
@@ -117,7 +130,8 @@ def highlights_markdown(highlights):
         focus = paper["focus"]
         if paper["topic"] == "continuous-time":
             focus = "CTDG · " + focus
-        lines.append(f'| {title} | {paper["venue"]} {paper["year"]} | [{focus}](papers/{paper["topic"]}.md#{paper["year"]}) |')
+        anchor = paper.get("anchor") or (CTDG_TASKS[paper["task"]].lower().replace(" ", "-") if paper.get("task") else str(paper["year"]))
+        lines.append(f'| {title} | {paper["venue"]} {paper["year"]} | [{focus}](papers/{paper["topic"]}.md#{anchor}) |')
     return "\n".join(lines)
 
 
@@ -133,10 +147,12 @@ def highlight_card(paper):
     topic = paper["topic"]
     code = next((link for link in paper["links"] if link["label"].lower().startswith("code")), None)
     code_link = resource_link(code) if code else ""
+    task = paper.get("task")
+    query = f"{topic}:{task}" if task else topic
     return f'''<article class="selected-card" data-highlight-topic="{topic}" data-highlight-year="{paper['year']}">
       <p class="selected-meta">{escape(paper['venue'])} {paper['year']}<span>{escape(paper['focus'])}</span></p>
       <h3><a href="{escape(paper_url(paper))}" target="_blank" rel="noopener noreferrer">{escape(display_title(paper))}</a></h3>
-      <div class="highlight-actions">{code_link}<a class="text-link small" href="?topic={topic}#paper-explorer">{escape(TOPICS[topic])} — Full paper list →</a></div>
+      <div class="highlight-actions">{code_link}<a class="text-link small" href="?topic={query}#paper-explorer">{escape(CTDG_TASKS[task] if task else TOPICS[topic])} — {'Task papers' if task else 'Full paper list'} →</a></div>
     </article>'''
 
 
@@ -160,6 +176,7 @@ def paper_card(paper):
     if paper_links:
         title = f'<a href="{escape(paper_links[0]["url"])}" target="_blank" rel="noopener noreferrer">{title}</a>'
     topic_buttons = "".join(f'<button class="topic-tag" type="button" data-topic="{topic}">{escape(TOPICS[topic])}</button>' for topic in paper["topics"])
+    topic_buttons += "".join(f'<button class="topic-tag task-tag" type="button" data-topic="continuous-time:{task}">{escape(CTDG_TASKS[task])}</button>' for task in paper["tasks"])
     kinds = "".join(f'<span class="kind-label">{escape(kind.rstrip("s"))}</span>' for kind in paper["kinds"] if kind != "Paper")
     # Keep citation-export links in the data and Markdown, but prioritize paper/code actions in the browser.
     visible_links = [link for link in paper["links"] if link["label"].lower() != "bibtex"]
@@ -183,7 +200,7 @@ def build(output, root=ROOT):
     papers = read_catalog(root)
     highlights = read_highlights(papers, root)
     spotlight, = [paper for paper in highlights if paper.get("spotlight")]
-    data = {"topics": TOPICS, "papers": papers,
+    data = {"topics": TOPICS, "tasks": CTDG_TASKS, "papers": papers,
             "highlights": [{"paper_id": paper["id"], "topic": paper["topic"], "focus": paper["focus"]} for paper in highlights],
             "source_entries": sum(len(paper["sources"]) for paper in papers)}
     template = (root / "site" / "index.html").read_text(encoding="utf-8")
@@ -193,7 +210,11 @@ def build(output, root=ROOT):
         "CODE_COUNT": str(sum(paper["has_code"] for paper in papers)),
         "TOPIC_COUNT": str(len(TOPICS)),
         "YEAR_OPTIONS": "".join(f'<option value="{year}">{year}</option>' for year in years),
-        "TOPIC_OPTIONS": "".join(f'<option value="{key}">{escape(label)}</option>' for key, label in TOPICS.items()),
+        "TOPIC_OPTIONS": "".join(
+            f'<option value="{key}">{escape(label)}</option>' + (
+                "".join(f'<option value="continuous-time:{task}">↳ {escape(name)}</option>' for task, name in CTDG_TASKS.items())
+                if key == "continuous-time" else "")
+            for key, label in TOPICS.items()),
         "PAPER_CARDS": "\n".join(paper_card(paper) for paper in papers),
         "SELECTED_CARDS": "\n".join(highlight_card(paper) for paper in highlights if not paper.get("spotlight")),
         "SPOTLIGHT": spotlight_card(spotlight),
@@ -201,6 +222,9 @@ def build(output, root=ROOT):
     }
     for key, value in replacements.items():
         template = template.replace("{{" + key + "}}", value)
+    for name in ("styles.css", "app.js", "favicon.svg"):
+        version = hashlib.sha256((root / "site" / name).read_bytes()).hexdigest()[:12]
+        template = template.replace(f'"./{name}"', f'"./{name}?v={version}"')
     if re.search(r"{{[A-Z_]+}}", template):
         raise ValueError("Unresolved template placeholder")
     (output / "index.html").write_text(template, encoding="utf-8")

@@ -826,3 +826,14 @@ h3 {
     border-bottom: 0;
   }
 }
+
+.task-tag {
+  background: #eef5f2;
+  color: var(--accent);
+  border-color: #d5e6dd;
+}
+@media (min-width: 701px) {
+  .selected-card:last-child:nth-child(3n + 1) {
+    grid-column: 1 / -1;
+  }
+}

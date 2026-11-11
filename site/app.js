@@ -13,7 +13,7 @@
   const empty = document.getElementById('empty-state');
   const more = document.getElementById('load-more');
   const cards = new Map([...list.children].map(card => [card.dataset.paperId, card]));
-  const searchable = new Map(catalog.papers.map(paper => [paper.id, [paper.title, paper.acronym, paper.venue, ...paper.topics.map(id => catalog.topics[id]), ...paper.links.map(link => link.url)].join(' ').normalize('NFKC').toLocaleLowerCase()]));
+  const searchable = new Map(catalog.papers.map(paper => [paper.id, [paper.title, paper.acronym, paper.venue, ...paper.topics.map(id => catalog.topics[id]), ...paper.tasks.map(id => catalog.tasks[id]), ...paper.links.map(link => link.url)].join(' ').normalize('NFKC').toLocaleLowerCase()]));
   const pageSize = 25;
   let limit = pageSize;
 
@@ -36,9 +36,11 @@
 
   function render(updateURL = true) {
     const terms = search.value.trim().normalize('NFKC').toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    const [selectedTopic, selectedTask] = topic.value.split(':');
     const matching = catalog.papers.filter(paper =>
       (!year.value || String(paper.year) === year.value) &&
-      (!topic.value || paper.topics.includes(topic.value)) &&
+      (!selectedTopic || paper.topics.includes(selectedTopic)) &&
+      (!selectedTask || paper.tasks.includes(selectedTask)) &&
       (!code.value || (code.value === 'with-code' ? paper.has_code : !paper.has_code)) &&
       terms.every(term => searchable.get(paper.id).includes(term))
     );

@@ -4,9 +4,23 @@
 
 Timestamped interactions, temporal graph neural networks, and event-based representation learning.
 
-[Surveys](#surveys) · [Benchmarks](#benchmarks) · [2026](#2026) · [2025](#2025) · [2024](#2024) · [2023](#2023) · [2022](#2022) · [2021](#2021) · [2020](#2020) · [2019](#2019) · [2018](#2018) · [2017](#2017)
+[Tasks](#tasks) · [Surveys](#surveys) · [Benchmarks](#benchmarks) · [2026](#2026) · [2025](#2025) · [2024](#2024) · [2023](#2023) · [2022](#2022) · [2021](#2021) · [2020](#2020) · [2019](#2019) · [2018](#2018) · [2017](#2017)
 
 Papers are grouped by year. A dash indicates that a venue or resource link was not provided.
+
+## Tasks
+
+### Link Prediction
+
+Predict future links from timestamped interaction histories. Representative: [TCSD](https://openreview.net/forum?id=YfsyoH7YFs) (NeurIPS 2026). [Browse task papers](https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/?topic=continuous-time:link-prediction#paper-explorer).
+
+### Node Affinity Prediction
+
+Predict node affinity targets on temporal graphs. Representative: [Revisiting Node Affinity Prediction in Temporal Graphs](https://arxiv.org/abs/2510.06940) (ICLR 2026). [Browse task papers](https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/?topic=continuous-time:node-affinity#paper-explorer).
+
+### Multi-task Learning
+
+Learn across multiple temporal graph tasks. Representative: [Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs](https://openreview.net/forum?id=q45V4tagJs) (NeurIPS 2026). [Browse task papers](https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/?topic=continuous-time:multi-task#paper-explorer).
 
 ## Surveys
 

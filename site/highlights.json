@@ -5,19 +5,22 @@
     "topic": "continuous-time",
     "focus": "Link Prediction",
     "acronym": "TCSD",
-    "spotlight": true
+    "spotlight": true,
+    "task": "link-prediction"
   },
   {
     "title": "Revisiting Node Affinity Prediction in Temporal Graphs",
     "year": 2026,
     "topic": "continuous-time",
-    "focus": "Node Affinity"
+    "focus": "Node Affinity",
+    "task": "node-affinity"
   },
   {
     "title": "Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs",
     "year": 2026,
     "topic": "continuous-time",
-    "focus": "Multi-task"
+    "focus": "Multi-task",
+    "task": "multi-task"
   },
   {
     "title": "Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton",
@@ -58,9 +61,26 @@
     "focus": "Streaming · Dynamic Updates"
   },
   {
-    "title": "UFO: A Unified Flow-Oriented Framework for Robust Continual Graph Learning",
-    "year": 2026,
+    "title": "A Selective Learning Method for Temporal Graph Continual Learning",
+    "year": 2025,
     "topic": "continual-learning",
-    "focus": "Continual Learning"
+    "focus": "Temporal Continual Learning",
+    "acronym": "LTF",
+    "anchor": "temporal-continual-learning"
+  },
+  {
+    "title": "Towards Open Temporal Graph Neural Networks",
+    "year": 2023,
+    "topic": "continual-learning",
+    "focus": "Open Temporal Graph Learning",
+    "acronym": "OTGNet",
+    "anchor": "open-temporal-graph-learning"
+  },
+  {
+    "title": "Online Learning with Certified Unlearning over Graphs",
+    "year": 2026,
+    "topic": "unlearning",
+    "focus": "Online Dynamic Graph Unlearning",
+    "acronym": "OLUG"
   }
 ]

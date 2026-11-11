@@ -85,11 +85,33 @@ class CatalogTests(unittest.TestCase):
         self.assertTrue(any(p["venue"] == "ICLR" and p["topic"] == "discrete-time" for p in highlights))
         self.assertTrue(any(p.get("acronym") == "MoMent" and p["venue"] == "AAAI" for p in highlights))
 
-    def test_highlight_years_keep_only_requested_fasthep_exception(self):
+    def test_older_highlights_are_limited_to_task_representatives(self):
         highlights = read_highlights(self.papers)
         older = [p for p in highlights if p["year"] != 2026]
-        self.assertEqual(len(older), 1)
-        self.assertEqual((older[0]["acronym"], older[0]["venue"], older[0]["year"]), ("FastHeP", "KDD", 2025))
+        self.assertEqual({(p["acronym"], p["venue"], p["year"]) for p in older},
+                         {("FastHeP", "KDD", 2025), ("LTF", "ICML", 2025), ("OTGNet", "ICLR", 2023)})
+
+    def test_node_affinity_is_a_separate_ctdg_task(self):
+        papers = [p for p in self.papers if "node-affinity" in p["tasks"]]
+        self.assertTrue(papers)
+        self.assertTrue(all("continuous-time" in p["topics"] for p in papers))
+        self.assertTrue(any(p["title"].startswith("Revisiting Node Affinity") for p in papers))
+        tcsd, = [p for p in self.papers if p["acronym"] == "TCSD"]
+        self.assertEqual(tcsd["tasks"], ["link-prediction"])
+
+    def test_temporal_continual_and_open_world_scope(self):
+        ltf, = [p for p in self.papers if p["title"].startswith("A Selective Learning Method")]
+        otgnet, = [p for p in self.papers if p["title"] == "Towards Open Temporal Graph Neural Networks"]
+        nforgot, = [p for p in self.papers if p["title"].startswith("N-ForGOT:")]
+        self.assertEqual((ltf["year"], ltf["venue"]), (2025, "ICML"))
+        self.assertTrue(all("continual-learning" in p["topics"] for p in (ltf, otgnet, nforgot)))
+        selected = [p for p in read_highlights(self.papers) if p["topic"] == "continual-learning"]
+        self.assertEqual({p.get("acronym") for p in selected}, {"LTF", "OTGNet"})
+
+    def test_unlearning_has_its_own_direction(self):
+        paper, = [p for p in self.papers if p["title"] == "Online Learning with Certified Unlearning over Graphs"]
+        self.assertEqual(paper["topics"], ["unlearning"])
+        self.assertIn("unlearning", TOPICS)
 
     def test_readme_and_website_share_the_same_highlights(self):
         text = (ROOT / "README.md").read_text()

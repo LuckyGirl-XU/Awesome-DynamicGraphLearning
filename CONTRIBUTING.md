@@ -30,6 +30,8 @@ Keep the README concise. Place complete paper lists in topic pages and select a 
 
 The website is generated from the Markdown tables in `papers/`. Update those tables to keep both views in sync. Entries with the same title and year are combined across topics in the explorer; all source locations and links are retained. Homepage selections are defined in `site/highlights.json`; each selection must match a catalog entry. Run `python3 scripts/build_site.py --update-readme` after changing selections to update the README and website together.
 
+CTDG task tags use explicit task names in paper titles; unassigned papers remain in the parent collection. Temporal continual learning and open-world temporal graph learning share one direction. Graph unlearning has a separate collection.
+
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/build_site.py

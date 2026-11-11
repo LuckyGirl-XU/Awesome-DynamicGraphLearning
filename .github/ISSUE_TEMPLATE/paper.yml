@@ -36,7 +36,8 @@ body:
         - Anomaly detection
         - Temporal hypergraphs
         - Streaming graph learning
-        - Continual graph learning
+        - Continual and open-world temporal graph learning
+        - Dynamic and temporal graph unlearning
         - Dataset or benchmark
         - Library
         - Other

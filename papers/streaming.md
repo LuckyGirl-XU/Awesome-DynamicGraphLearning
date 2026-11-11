@@ -14,7 +14,6 @@ Papers are grouped by year. A dash indicates that a venue or resource link was n
 | --- | --- | --- |
 | Efficient Dynamic Algorithms for Graph Neural Networks with Non-Linearity | NeurIPS | [Paper](https://openreview.net/forum?id=DC1kP2puyf) |
 | Faster Dynamic Graph Clustering with Hierarchical Graph Contraction | NeurIPS | [Paper](https://openreview.net/forum?id=JDWJEQwXiU) |
-| Online Learning with Certified Unlearning over Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=Y9ZVSXcXaD) |
 
 ## 2022
 

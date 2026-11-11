@@ -1,12 +1,29 @@
-# Continual Graph Learning
+# Continual & Open-world Temporal Graph Learning
 
 [Home](../README.md) · [Datasets & Benchmarks](../resources/datasets-and-benchmarks.md) · [Libraries](../resources/libraries.md)
 
-Learning across evolving graph tasks and distributions while retaining previous knowledge.
+Continual learning on temporal graphs with evolving node classes, interactions, and data distributions. Open temporal graph learning belongs to this direction: models must learn new classes while retaining knowledge of old ones.
 
-[Benchmarks](#benchmarks) · [2026](#2026) · [2023](#2023) · [2021](#2021)
+[Temporal Continual Learning](#temporal-continual-learning) · [Open Temporal Graph Learning](#open-temporal-graph-learning) · [Related Benchmarks](#benchmarks) · [2026](#2026) · [2023](#2023) · [2021](#2021)
 
 Papers are grouped by year. A dash indicates that a venue or resource link was not provided.
+
+## Temporal Continual Learning
+
+| Paper | Venue | Resources |
+| --- | --- | --- |
+| A Selective Learning Method for Temporal Graph Continual Learning | ICML 2025 | [Paper](https://proceedings.mlr.press/v267/liu25l.html) |
+
+## Open Temporal Graph Learning
+
+| Paper | Venue | Resources |
+| --- | --- | --- |
+| N-ForGOT: Towards Not-forgetting and Generalization of Open Temporal Graph Learning | ICLR 2025 | [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1d41343cf93afd6456db3d1820ce1a58-Abstract-Conference.html) · [Code](https://github.com/Liane-Wang/N-ForGOT) |
+| Towards Open Temporal Graph Neural Networks | ICLR 2023 | [Paper](https://arxiv.org/abs/2303.15015) · [Code](https://github.com/tulerfeng/OTGNet) |
+
+## Related Graph Continual Learning
+
+The following entries provide broader graph continual learning context; the temporal and open-world representatives are listed above.
 
 ## Benchmarks
 
