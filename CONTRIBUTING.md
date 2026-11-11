@@ -28,7 +28,7 @@ Keep the README concise. Place complete paper lists in topic pages and select a 
 
 ## Preview the Paper Explorer
 
-The website is generated from the Markdown tables in `papers/`. Update those tables to keep both views in sync. Entries with the same title and year are combined across topics in the explorer; all source locations and links are retained.
+The website is generated from the Markdown tables in `papers/`. Update those tables to keep both views in sync. Entries with the same title and year are combined across topics in the explorer; all source locations and links are retained. Homepage selections are defined in `site/highlights.json`; each selection must match a catalog entry. Run `python3 scripts/build_site.py --update-readme` after changing selections to update the README and website together.
 
 ```bash
 python3 -m unittest discover -s tests -v

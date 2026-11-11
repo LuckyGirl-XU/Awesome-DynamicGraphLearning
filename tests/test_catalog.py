@@ -5,7 +5,8 @@ import unittest
 from html.parser import HTMLParser
 from pathlib import Path
 
-from scripts.build_site import ROOT, TOPICS, build, read_catalog
+from scripts.build_site import (HIGHLIGHTS_END, HIGHLIGHTS_START, ROOT, TOPICS,
+                                build, highlights_markdown, read_catalog, read_highlights)
 
 
 class PageParser(HTMLParser):
@@ -75,6 +76,25 @@ class CatalogTests(unittest.TestCase):
         self.assertIn("Surveys", survey["kinds"])
         dtgb, = [p for p in self.papers if p["title"].startswith("DTGB:")]
         self.assertEqual(dtgb["year"], 2024)
+
+    def test_highlights_cover_every_topic_and_distinct_temporal_tasks(self):
+        highlights = read_highlights(self.papers)
+        self.assertEqual({paper["topic"] for paper in highlights}, set(TOPICS))
+        temporal = [p for p in highlights if p["topic"] == "continuous-time"]
+        self.assertEqual({p["focus"] for p in temporal}, {"Link Prediction", "Node Affinity", "Multi-task"})
+        self.assertTrue(any(p["venue"] == "ICLR" and p["topic"] == "discrete-time" for p in highlights))
+        self.assertTrue(any(p.get("acronym") == "MoMent" and p["venue"] == "AAAI" for p in highlights))
+
+    def test_highlight_years_keep_only_requested_fasthep_exception(self):
+        highlights = read_highlights(self.papers)
+        older = [p for p in highlights if p["year"] != 2026]
+        self.assertEqual(len(older), 1)
+        self.assertEqual((older[0]["acronym"], older[0]["venue"], older[0]["year"]), ("FastHeP", "KDD", 2025))
+
+    def test_readme_and_website_share_the_same_highlights(self):
+        text = (ROOT / "README.md").read_text()
+        actual = text.split(HIGHLIGHTS_START, 1)[1].split(HIGHLIGHTS_END, 1)[0].strip()
+        self.assertEqual(actual, highlights_markdown(read_highlights(self.papers)))
 
     def test_generated_html_contains_all_records_without_javascript(self):
         with tempfile.TemporaryDirectory() as directory:

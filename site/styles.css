@@ -796,3 +796,33 @@ h3 {
 .direction-highlight .small {
   font-size: 11px;
 }
+
+.selection-note {
+  margin: -10px 0 20px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.selected-card {
+  border-bottom: 1px solid var(--line);
+}
+.selected-card:nth-child(3n) {
+  border-right: 0;
+}
+.selected-card:nth-last-child(-n + 3) {
+  border-bottom: 0;
+}
+.highlight-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+  font-size: 11px;
+}
+@media (max-width: 700px) {
+  .selected-card:nth-last-child(-n + 3) {
+    border-bottom: 1px solid var(--line);
+  }
+  .selected-card:last-child {
+    border-bottom: 0;
+  }
+}

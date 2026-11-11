@@ -14,18 +14,24 @@ A curated collection of papers, code, datasets, benchmarks, and libraries for **
 
 ## Recent Papers
 
-Selected papers from NeurIPS, ICML, and ICLR, alongside representative work from other graph research venues. Browse the [full paper lists](#full-paper-lists-by-topic) for all collected work.
+Representative papers across all seven topics, with separate tasks for continuous-time graphs. The selection uses 2026 papers, plus FastHeP (KDD 2025) for temporal hypergraphs. Browse the [full paper lists](#full-paper-lists-by-topic) for all years.
 
-| Paper | Venue | Topic |
+<!-- RECENT_PAPERS:START -->
+
+| Paper | Venue | Topic / Task |
 | --- | --- | --- |
-| [TCSD: A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs](https://openreview.net/forum?id=YfsyoH7YFs) · [Code](https://github.com/LuckyGirl-XU/TCSD) | NeurIPS 2026 | [Continuous-time](papers/continuous-time.md#2026) |
-| [Revisiting Node Affinity Prediction in Temporal Graphs](https://arxiv.org/abs/2510.06940) | ICLR 2026 | [Continuous-time](papers/continuous-time.md#2026) |
-| [Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs](https://openreview.net/forum?id=q45V4tagJs) | NeurIPS 2026 | [Continuous-time](papers/continuous-time.md#2026) |
-| [Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton](https://iclr.cc/virtual/2026/poster/10008743) | ICLR 2026 | [Discrete-time](papers/discrete-time.md#2026) |
-| [Learnable Spatial-Temporal Positional Encoding for Link Prediction](https://openreview.net/pdf?id=EoxpGWgeCH) | ICML 2025 | [Continuous-time](papers/continuous-time.md#2025) |
-| [Analytical Construction on Geometric Architectures: Transitioning from Static to Temporal Link Prediction](https://openreview.net/pdf?id=0d0L3U3MAM) | ICML 2025 | [Continuous-time](papers/continuous-time.md#2025) |
-| [Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation](https://www.vldb.org/pvldb/vol19/p862-xu.pdf) | VLDB 2026 | [Discrete-time](papers/discrete-time.md#2026) |
-| [Mitigating Anomaly Hallucination: A Model-Agnostic Framework for Unsupervised Anomaly Detection on Dynamic Graphs](https://dl.acm.org/doi/10.1145/3770855.3817610) | KDD 2026 | [Anomaly detection](papers/anomaly-detection.md#2026) |
+| [TCSD: A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs](https://openreview.net/forum?id=YfsyoH7YFs) · [Code](https://github.com/LuckyGirl-XU/TCSD) | NeurIPS 2026 | [CTDG · Link Prediction](papers/continuous-time.md#2026) |
+| [Revisiting Node Affinity Prediction in Temporal Graphs](https://arxiv.org/pdf/2510.06940) | ICLR 2026 | [CTDG · Node Affinity](papers/continuous-time.md#2026) |
+| [Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs](https://openreview.net/forum?id=q45V4tagJs) | NeurIPS 2026 | [CTDG · Multi-task](papers/continuous-time.md#2026) |
+| [Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton](https://proceedings.iclr.cc/paper_files/paper/2026/hash/df29d63af05cb91d705cf06ba5945b9d-Abstract-Conference.html) | ICLR 2026 | [DTDG · Representation Learning](papers/discrete-time.md#2026) |
+| [Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation](https://www.vldb.org/pvldb/vol19/p862-xu.pdf) | VLDB 2026 | [DTDG · Evolving Structures](papers/discrete-time.md#2026) |
+| [MoMent: Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation](https://arxiv.org/pdf/2502.19651) · [Code](https://github.com/LuckyGirl-XU/MoMent) | AAAI 2026 | [Text-attributed · Link Prediction](papers/text-attributed.md#2026) |
+| [Mitigating Anomaly Hallucination: A Model-Agnostic Framework for Unsupervised Anomaly Detection on Dynamic Graphs](https://dl.acm.org/doi/10.1145/3770855.3817610) | KDD 2026 | [Anomaly Detection](papers/anomaly-detection.md#2026) |
+| [FastHeP: Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction](https://dl.acm.org/doi/10.1145/3690624.3709327) · [Code](https://github.com/LuckyGirl-XU/FastHeP) | KDD 2025 | [Hypergraph · Hyperedge Prediction](papers/temporal-hypergraphs.md#2025) |
+| [Efficient Dynamic Algorithms for Graph Neural Networks with Non-Linearity](https://openreview.net/forum?id=DC1kP2puyf) | NeurIPS 2026 | [Streaming · Dynamic Updates](papers/streaming.md#2026) |
+| [UFO: A Unified Flow-Oriented Framework for Robust Continual Graph Learning](https://openreview.net/forum?id=38kpqzHh0B) | NeurIPS 2026 | [Continual Learning](papers/continual-learning.md#2026) |
+
+<!-- RECENT_PAPERS:END -->
 
 <a id="Publications"></a>
 

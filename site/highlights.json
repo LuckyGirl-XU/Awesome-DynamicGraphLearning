@@ -1,0 +1,66 @@
+[
+  {
+    "title": "A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs",
+    "year": 2026,
+    "topic": "continuous-time",
+    "focus": "Link Prediction",
+    "acronym": "TCSD",
+    "spotlight": true
+  },
+  {
+    "title": "Revisiting Node Affinity Prediction in Temporal Graphs",
+    "year": 2026,
+    "topic": "continuous-time",
+    "focus": "Node Affinity"
+  },
+  {
+    "title": "Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs",
+    "year": 2026,
+    "topic": "continuous-time",
+    "focus": "Multi-task"
+  },
+  {
+    "title": "Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton",
+    "year": 2026,
+    "topic": "discrete-time",
+    "focus": "DTDG · Representation Learning"
+  },
+  {
+    "title": "Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation",
+    "year": 2026,
+    "topic": "discrete-time",
+    "focus": "DTDG · Evolving Structures"
+  },
+  {
+    "title": "Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation",
+    "year": 2026,
+    "topic": "text-attributed",
+    "focus": "Text-attributed · Link Prediction",
+    "acronym": "MoMent"
+  },
+  {
+    "title": "Mitigating Anomaly Hallucination: A Model-Agnostic Framework for Unsupervised Anomaly Detection on Dynamic Graphs",
+    "year": 2026,
+    "topic": "anomaly-detection",
+    "focus": "Anomaly Detection"
+  },
+  {
+    "title": "Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction",
+    "year": 2025,
+    "topic": "temporal-hypergraphs",
+    "focus": "Hypergraph · Hyperedge Prediction",
+    "acronym": "FastHeP"
+  },
+  {
+    "title": "Efficient Dynamic Algorithms for Graph Neural Networks with Non-Linearity",
+    "year": 2026,
+    "topic": "streaming",
+    "focus": "Streaming · Dynamic Updates"
+  },
+  {
+    "title": "UFO: A Unified Flow-Oriented Framework for Robust Continual Graph Learning",
+    "year": 2026,
+    "topic": "continual-learning",
+    "focus": "Continual Learning"
+  }
+]

@@ -22,6 +22,8 @@ TOPICS = {
     "streaming": "Streaming graph learning",
     "continual-learning": "Continual graph learning",
 }
+HIGHLIGHTS_START = "<!-- RECENT_PAPERS:START -->"
+HIGHLIGHTS_END = "<!-- RECENT_PAPERS:END -->"
 
 
 def normalize(title):
@@ -83,6 +85,73 @@ def resource_link(link, css="resource-link"):
     return f'<a class="{css}" href="{escape(link["url"])}" target="_blank" rel="noopener noreferrer">{escape(link["label"])}</a>'
 
 
+def read_highlights(papers, root=ROOT):
+    selections = json.loads((root / "site" / "highlights.json").read_text(encoding="utf-8"))
+    highlights = []
+    for selection in selections:
+        matches = [paper for paper in papers if paper["title"] == selection["title"]
+                   and paper["year"] == selection["year"] and selection["topic"] in paper["topics"]]
+        if len(matches) != 1:
+            raise ValueError(f"Highlight must match exactly one catalog record: {selection['title']}")
+        highlights.append({**matches[0], **selection})
+    if {item["topic"] for item in highlights} != set(TOPICS):
+        raise ValueError("Highlights must represent all seven research topics")
+    return highlights
+
+
+def display_title(paper):
+    return (paper.get("acronym", "") + ": " if paper.get("acronym") else "") + paper["title"]
+
+
+def paper_url(paper):
+    return next(link["url"] for link in paper["links"] if link["label"].lower().startswith("paper"))
+
+
+def highlights_markdown(highlights):
+    lines = ["| Paper | Venue | Topic / Task |", "| --- | --- | --- |"]
+    for paper in highlights:
+        title = f'[{display_title(paper)}]({paper_url(paper)})'
+        code = next((link for link in paper["links"] if link["label"].lower().startswith("code")), None)
+        if code:
+            title += f' · [Code]({code["url"]})'
+        focus = paper["focus"]
+        if paper["topic"] == "continuous-time":
+            focus = "CTDG · " + focus
+        lines.append(f'| {title} | {paper["venue"]} {paper["year"]} | [{focus}](papers/{paper["topic"]}.md#{paper["year"]}) |')
+    return "\n".join(lines)
+
+
+def update_readme(highlights, root=ROOT):
+    path = root / "README.md"
+    text = path.read_text(encoding="utf-8")
+    start = text.index(HIGHLIGHTS_START) + len(HIGHLIGHTS_START)
+    end = text.index(HIGHLIGHTS_END)
+    path.write_text(text[:start] + "\n\n" + highlights_markdown(highlights) + "\n\n" + text[end:], encoding="utf-8")
+
+
+def highlight_card(paper):
+    topic = paper["topic"]
+    code = next((link for link in paper["links"] if link["label"].lower().startswith("code")), None)
+    code_link = resource_link(code) if code else ""
+    return f'''<article class="selected-card" data-highlight-topic="{topic}" data-highlight-year="{paper['year']}">
+      <p class="selected-meta">{escape(paper['venue'])} {paper['year']}<span>{escape(paper['focus'])}</span></p>
+      <h3><a href="{escape(paper_url(paper))}" target="_blank" rel="noopener noreferrer">{escape(display_title(paper))}</a></h3>
+      <div class="highlight-actions">{code_link}<a class="text-link small" href="?topic={topic}#paper-explorer">{escape(TOPICS[topic])} — Full paper list →</a></div>
+    </article>'''
+
+
+def spotlight_card(paper):
+    code = next((link for link in paper["links"] if link["label"].lower().startswith("code")), None)
+    code_link = resource_link({"label": "View code ↗", "url": code["url"]}, "button button-light") if code else ""
+    return f'''<article class="spotlight" aria-labelledby="spotlight-title" data-highlight-topic="{paper['topic']}" data-highlight-year="{paper['year']}">
+      <div class="spotlight-top"><span class="eyebrow">{escape(paper['focus'])}</span><span class="venue-badge">{escape(paper['venue'])} {paper['year']}</span></div>
+      <p class="method-name">{escape(paper['acronym'])}</p>
+      <h2 id="spotlight-title">{escape(paper['title'])}</h2>
+      <p class="spotlight-description">{escape(TOPICS[paper['topic']])} · {escape(paper['focus'])}</p>
+      <div class="spotlight-actions">{resource_link({'label': 'Read paper ↗', 'url': paper_url(paper)}, 'button button-dark')}{code_link}</div>
+    </article>'''
+
+
 def paper_card(paper):
     paper_links = [link for link in paper["links"] if link["label"].lower().startswith("paper")]
     title = escape(paper["title"])
@@ -112,7 +181,10 @@ def build(output, root=ROOT):
         raise ValueError("Build output must not overwrite source directories")
     output.mkdir(parents=True, exist_ok=True)
     papers = read_catalog(root)
+    highlights = read_highlights(papers, root)
+    spotlight, = [paper for paper in highlights if paper.get("spotlight")]
     data = {"topics": TOPICS, "papers": papers,
+            "highlights": [{"paper_id": paper["id"], "topic": paper["topic"], "focus": paper["focus"]} for paper in highlights],
             "source_entries": sum(len(paper["sources"]) for paper in papers)}
     template = (root / "site" / "index.html").read_text(encoding="utf-8")
     years = sorted({paper["year"] for paper in papers if paper["year"]}, reverse=True)
@@ -123,6 +195,8 @@ def build(output, root=ROOT):
         "YEAR_OPTIONS": "".join(f'<option value="{year}">{year}</option>' for year in years),
         "TOPIC_OPTIONS": "".join(f'<option value="{key}">{escape(label)}</option>' for key, label in TOPICS.items()),
         "PAPER_CARDS": "\n".join(paper_card(paper) for paper in papers),
+        "SELECTED_CARDS": "\n".join(highlight_card(paper) for paper in highlights if not paper.get("spotlight")),
+        "SPOTLIGHT": spotlight_card(spotlight),
         "CATALOG_JSON": json.dumps(data, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026"),
     }
     for key, value in replacements.items():
@@ -142,4 +216,8 @@ def build(output, root=ROOT):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=ROOT / "_site")
-    build(parser.parse_args().output)
+    parser.add_argument("--update-readme", action="store_true", help="Refresh the README selection from site/highlights.json")
+    args = parser.parse_args()
+    if args.update_readme:
+        update_readme(read_highlights(read_catalog()))
+    build(args.output)

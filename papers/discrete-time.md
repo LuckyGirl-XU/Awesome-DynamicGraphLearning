@@ -20,7 +20,7 @@ Papers are grouped by year. A dash indicates that a venue or resource link was n
 | Paper | Venue | Resources |
 | --- | --- | --- |
 | Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation | VLDB | [Paper](https://www.vldb.org/pvldb/vol19/p862-xu.pdf) |
-| Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton | ICLR | [Paper](https://iclr.cc/virtual/2026/poster/10008743) |
+| Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton | ICLR | [Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/df29d63af05cb91d705cf06ba5945b9d-Abstract-Conference.html) |
 | Training-free Counterfactual Explanation for Temporal Graph Model Inference | ICLR | [Paper](https://openreview.net/pdf?id=NqtYz3A8tQ) |
 | Node Role-Guided LLMs for Dynamic Graph Clustering | KDD | [Paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792704) |
 | A Topological Encoder Decoder Framework for Temporal Graph Learning | NeurIPS | [Paper](https://openreview.net/forum?id=cZEj9pgOP7) · [Code](https://github.com/FDataLab/TopoGED) |
