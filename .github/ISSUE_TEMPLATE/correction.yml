@@ -1,0 +1,17 @@
+name: Report a correction or broken link
+description: Correct an entry, classification, or resource link.
+title: "[Correction] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or entry URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: Describe the issue and include a supporting source or replacement URL.
+    validations:
+      required: true

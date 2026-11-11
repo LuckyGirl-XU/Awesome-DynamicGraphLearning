@@ -1,0 +1,49 @@
+name: Suggest a paper or resource
+description: Add a paper, dataset, benchmark, or library.
+title: "[Resource] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title or project name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Original resource URL
+      description: Publication page, DOI, arXiv, OpenReview, or project repository.
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      description: Use Preprint or arXiv if the paper has not been published.
+  - type: input
+    id: code
+    attributes:
+      label: Code URL
+      description: Indicate whether the implementation is official, unofficial, or anonymous.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Continuous-time dynamic graphs
+        - Discrete-time dynamic graphs
+        - Dynamic text-attributed graphs
+        - Anomaly detection
+        - Temporal hypergraphs
+        - Streaming graph learning
+        - Continual graph learning
+        - Dataset or benchmark
+        - Library
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance
+      description: Briefly describe the contribution or intended use.
