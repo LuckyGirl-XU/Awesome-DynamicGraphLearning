@@ -45,6 +45,9 @@ Learn across multiple temporal graph tasks. Representative: [Hydra: Towards Tran
 
 | Paper | Venue | Resources |
 | --- | --- | --- |
+| A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=YfsyoH7YFs) · [Code](https://github.com/LuckyGirl-XU/TCSD) |
+| Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=q45V4tagJs) |
+| Learning Global Temporal Dynamics in Sparse Networks via Cycle Counts | NeurIPS | [Paper](https://openreview.net/forum?id=lybAtXLgRc) · [Code](https://github.com/ltp-THU/network_cycle_repro) |
 | Exploring Sequential Dynamics on Temporal Graphs via Composite Filtering | WWW | [Paper](https://dl.acm.org/doi/10.1145/3774904.3792101) |
 | Revisiting Node Affinity Prediction in Temporal Graphs | ICLR | [Paper](https://arxiv.org/pdf/2510.06940) |
 | TGM: a Modular and Efficient Library for Machine Learning on Temporal Graphs | ICLR | [Paper](https://arxiv.org/pdf/2510.07586) |
@@ -52,9 +55,6 @@ Learn across multiple temporal graph tasks. Representative: [Hydra: Towards Tran
 | TAWRMAC: A Novel Dynamic Graph Representation Learning | WWW | [Paper](https://dl.acm.org/doi/10.1145/3774904.3792163) |
 | S3Former: Sequential, Structural, and Statistical Fusion for Continuous-Time Dynamic Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=56lSllQiF5) |
 | Weisfeiler and Leman Follow the Arrow of Time: Expressive Power of Message Passing in Temporal Event Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=W5jWeq8Ty5) |
-| A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=YfsyoH7YFs) · [Code](https://github.com/LuckyGirl-XU/TCSD) |
-| Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs | NeurIPS | [Paper](https://openreview.net/forum?id=q45V4tagJs) |
-| Learning Global Temporal Dynamics in Sparse Networks via Cycle Counts | NeurIPS | [Paper](https://openreview.net/forum?id=lybAtXLgRc) · [Code](https://github.com/ltp-THU/network_cycle_repro) |
 
 ## 2025
 
