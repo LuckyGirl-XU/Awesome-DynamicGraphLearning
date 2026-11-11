@@ -9,7 +9,7 @@ A curated collection of papers, code, datasets, benchmarks, and libraries for **
 ## Getting Started
 
 1. **Read a survey.** Start with [Representation Learning for Dynamic Graphs](https://arxiv.org/abs/1905.11485) or [Graph Neural Networks for Temporal Graphs](https://arxiv.org/abs/2302.01018).
-2. **Explore implementations.** Start with [TCSD](https://github.com/LuckyGirl-XU/TCSD) (NeurIPS 2026), [TGAT](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs), [TGN](https://github.com/twitter-research/tgn), or [GraphMixer](https://github.com/CongWeilin/GraphMixer). [DyGLib](https://github.com/yule-BUAA/DyGLib) brings multiple temporal graph methods into one library.
+2. **Explore implementations.** Start with [TGAT](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs), [TGN](https://github.com/twitter-research/tgn), [GraphMixer](https://github.com/CongWeilin/GraphMixer), or [TCSD](https://github.com/LuckyGirl-XU/TCSD). [DyGLib](https://github.com/yule-BUAA/DyGLib) brings multiple temporal graph methods into one library.
 3. **Choose a benchmark.** Explore [TGB](https://tgb.complexdatalab.com/) for temporal link and node prediction, [TGB-Seq](https://github.com/TGB-Seq/TGB-Seq) for sequential interaction dynamics, and [DTGB](https://github.com/zjs123/DTGB) for dynamic text-attributed graphs.
 
 ## Recent Papers
