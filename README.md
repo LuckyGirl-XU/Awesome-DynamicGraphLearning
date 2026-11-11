@@ -294,7 +294,7 @@ A curated collection of **awesome papers (and code)** on machine learning, deep 
 * DTGB: A comprehensive benchmark for dynamic text-attributed graphs (**NeurIPS 2024**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf)]
 
 #### 2026
-* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation (**AAAI 2026**)[[paper](https://arxiv.org/pdf/2502.19651)]
+* Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation (**AAAI 2026**)[[paper](https://arxiv.org/pdf/2502.19651)][[code](https://github.com/LuckyGirl-XU/MoMent)]
 * MM-DyGraph: A Dataset, Benchmark, and Model for Multimodal Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=0G5dV4PwJv)]
 * REGATE: Confidence-Calibrated Integration of Temporally-Aligned Exogenous Texts for Dynamic Graphs (**NeurIPS, 2026**) [[paper](https://openreview.net/forum?id=hi0wCR0EYw)]
 
