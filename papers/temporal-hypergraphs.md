@@ -19,7 +19,7 @@ Papers are grouped by year. A dash indicates that a venue or resource link was n
 
 | Paper | Venue | Resources |
 | --- | --- | --- |
-| Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction | KDD | [Paper](https://dl.acm.org/doi/10.1145/3690624.3709327) |
+| Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction | KDD | [Paper](https://dl.acm.org/doi/10.1145/3690624.3709327) · [Code](https://github.com/LuckyGirl-XU/FastHeP) |
 
 ## 2024
 

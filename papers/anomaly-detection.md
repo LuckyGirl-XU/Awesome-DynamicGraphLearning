@@ -24,6 +24,8 @@ Papers are grouped by year. A dash indicates that a venue or resource link was n
 
 | Paper | Venue | Resources |
 | --- | --- | --- |
+| Mitigating Anomaly Hallucination: A Model-Agnostic Framework for Unsupervised Anomaly Detection on Dynamic Graphs | KDD | [Paper](https://dl.acm.org/doi/10.1145/3770855.3817610) |
+| Temporal Bipartite Graph Representation Learning for Behavior Anomaly Detection | FLINS–ISKE | [Author page](https://luckygirl-xu.github.io/#pubs) |
 | ARES: Anomaly Recognition Model For Edge Streams | KDD | [Paper](https://dl.acm.org/doi/epdf/10.1145/3770854.3780242) |
 | DP-DGAD: A Generalist Dynamic Graph Anomaly Detector with Dynamic Prototypes | KDD | [Paper](https://dl.acm.org/doi/10.1145/3774904.3792268) |
 | Mitigating Dynamic Graph Distribution Shifts via Mixture ofVariational Experts | KDD | [Paper](https://dl.acm.org/doi/epdf/10.1145/3774904.3792190) |

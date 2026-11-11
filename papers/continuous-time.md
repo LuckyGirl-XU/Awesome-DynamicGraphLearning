@@ -31,6 +31,7 @@ Papers are grouped by year. A dash indicates that a venue or resource link was n
 
 | Paper | Venue | Resources |
 | --- | --- | --- |
+| Exploring Sequential Dynamics on Temporal Graphs via Composite Filtering | WWW | [Paper](https://dl.acm.org/doi/10.1145/3774904.3792101) |
 | Revisiting Node Affinity Prediction in Temporal Graphs | ICLR | [Paper](https://arxiv.org/pdf/2510.06940) |
 | TGM: a Modular and Efficient Library for Machine Learning on Temporal Graphs | ICLR | [Paper](https://arxiv.org/pdf/2510.07586) |
 | Graph Retention Networks for Dynamic Graphs | WWW | [Paper](https://arxiv.org/pdf/2411.11259) |

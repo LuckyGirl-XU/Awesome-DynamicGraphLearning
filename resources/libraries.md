@@ -6,6 +6,10 @@
 
 | Project | Focus |
 | --- | --- |
+| [TCSD](https://github.com/LuckyGirl-XU/TCSD) | Target-conditioned structural dynamics for dynamic link prediction (NeurIPS 2026). |
+| [MoMent](https://github.com/LuckyGirl-XU/MoMent) | Multimodal learning on dynamic text-attributed graphs (AAAI 2026). |
+| [FastHeP](https://github.com/LuckyGirl-XU/FastHeP) | Temporal hypergraph representation for hyperedge prediction (KDD 2025). |
+| [TimeSGN](https://github.com/LuckyGirl-XU/TimeSGN) | Scalable temporal graph neural networks (ICDE 2024). |
 | [DyGLib](https://github.com/yule-BUAA/DyGLib) | A unified library of dynamic graph learning methods. |
 | [TGAT](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs) | Inductive representation learning on temporal graphs. |
 | [TGN](https://github.com/twitter-research/tgn) | Temporal Graph Networks. |

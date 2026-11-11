@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temporal & Dynamic Graph Learning — Paper Explorer</title>
+  <meta name="description" content="Explore temporal and dynamic graph learning papers, implementations, and benchmarks. Filter by year, research topic, and code availability. Maintained by Yuanyuan Xu.">
+  <link rel="canonical" href="https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/">
+  <meta property="og:title" content="Temporal & Dynamic Graph Learning — Paper Explorer">
+  <meta property="og:description" content="Papers, code, and benchmarks. Search and filter the complete research collection.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/">
+  <meta name="theme-color" content="#182f40">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#paper-explorer">Skip to paper explorer</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="./" aria-label="Paper explorer home"><span class="brand-mark" aria-hidden="true">dg.</span><span>Dynamic Graph Learning<span class="wordmark-sub">Research collection</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#paper-explorer">Papers</a>
+        <a href="https://github.com/LuckyGirl-XU/Awesome-DynamicGraphLearning/blob/main/resources/datasets-and-benchmarks.md">Benchmarks</a>
+        <a href="https://luckygirl-xu.github.io/">Yuanyuan Xu ↗</a>
+        <a class="github-link" href="https://github.com/LuckyGirl-XU/Awesome-DynamicGraphLearning">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero page-width" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">An open research collection</p>
+        <h1 id="page-title">Temporal &amp; Dynamic<br>Graph Learning</h1>
+        <p class="hero-description">Discover papers, implementations, and benchmarks for learning on evolving graphs.</p>
+        <a class="text-link" href="#paper-explorer">Explore the full collection <span aria-hidden="true">↓</span></a>
+        <dl class="collection-stats">
+          <div><dt>{{PAPER_COUNT}}</dt><dd>Paper records</dd></div>
+          <div><dt>{{TOPIC_COUNT}}</dt><dd>Research directions</dd></div>
+          <div><dt>{{CODE_COUNT}}</dt><dd>With code links</dd></div>
+        </dl>
+      </div>
+      <article class="spotlight" aria-labelledby="spotlight-title">
+        <div class="spotlight-top"><span class="eyebrow">Featured research</span><span class="venue-badge">NeurIPS 2026</span></div>
+        <p class="method-name">TCSD</p>
+        <h2 id="spotlight-title">A New Perspective on Target-Conditioned Structural Dynamics for Link Prediction in Dynamic Graphs</h2>
+        <p class="spotlight-description">Target-conditioned structural dynamics for temporal link prediction.</p>
+        <div class="spotlight-actions"><a class="button button-dark" href="https://openreview.net/forum?id=YfsyoH7YFs" target="_blank" rel="noopener noreferrer">Read paper ↗</a><a class="button button-light" href="https://github.com/LuckyGirl-XU/TCSD" target="_blank" rel="noopener noreferrer">View code ↗</a></div>
+      </article>
+    </section>
+    <section class="selected-section page-width" aria-labelledby="selected-title">
+      <div class="section-heading"><div><p class="eyebrow">NeurIPS · ICML · ICLR &amp; graph research</p><h2 id="selected-title">Selected recent work</h2></div><a class="text-link" href="#paper-explorer">All collected papers ↓</a></div>
+      <div class="selected-grid">
+        <article class="selected-card"><p class="selected-meta">ICLR 2026 <span>Temporal graphs</span></p><h3><a href="https://arxiv.org/abs/2510.06940" target="_blank" rel="noopener noreferrer">Revisiting Node Affinity Prediction in Temporal Graphs</a></h3><a class="text-link small" href="?topic=continuous-time#paper-explorer">Explore continuous-time graphs →</a></article>
+        <article class="selected-card"><p class="selected-meta">ICML 2025 <span>Link prediction</span></p><h3><a href="https://openreview.net/pdf?id=EoxpGWgeCH" target="_blank" rel="noopener noreferrer">Learnable Spatial-Temporal Positional Encoding for Link Prediction</a></h3><a class="text-link small" href="?q=ICML#paper-explorer">Explore ICML papers →</a></article>
+        <article class="selected-card"><p class="selected-meta">VLDB 2026 <span>Discrete-time graphs</span></p><h3><a href="https://www.vldb.org/pvldb/vol19/p862-xu.pdf" target="_blank" rel="noopener noreferrer">Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation</a></h3><a class="text-link small" href="?topic=discrete-time#paper-explorer">Explore DTDG — Full paper list →</a></article>
+      </div>
+      <div class="direction-highlight"><span class="eyebrow">Anomaly detection · KDD 2026</span><a href="https://dl.acm.org/doi/10.1145/3770855.3817610" target="_blank" rel="noopener noreferrer">Mitigating Anomaly Hallucination: A Model-Agnostic Framework for Unsupervised Anomaly Detection on Dynamic Graphs ↗</a><a class="text-link small" href="?topic=anomaly-detection#paper-explorer">Full paper list →</a></div>
+      <p class="more-work">Implementations <a href="https://github.com/LuckyGirl-XU/TCSD">TCSD</a><a href="https://github.com/twitter-research/tgn">TGN</a><a href="https://github.com/CongWeilin/GraphMixer">GraphMixer</a><a href="https://github.com/yule-BUAA/DyGLib">DyGLib</a><a href="https://github.com/LuckyGirl-XU/MoMent">MoMent</a><a href="https://github.com/LuckyGirl-XU/FastHeP">FastHeP</a></p>
+    </section>
+    <section class="explorer-section" id="paper-explorer" aria-labelledby="explorer-title">
+      <div class="page-width">
+        <div class="section-heading"><div><p class="eyebrow">Full paper list</p><h2 id="explorer-title">Explore the collection</h2></div><a class="text-link" href="https://github.com/LuckyGirl-XU/Awesome-DynamicGraphLearning#full-paper-lists-by-topic">Browse topic lists ↗</a></div>
+        <form id="filters" class="filter-panel" role="search" aria-label="Filter papers">
+          <label class="search-label" for="search">Search papers</label>
+          <div class="search-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" name="q" type="search" placeholder="Search papers — e.g. TCSD" autocomplete="off"></div>
+          <div class="filter-grid">
+            <label for="year">Year<select id="year" name="year"><option value="">All years</option>{{YEAR_OPTIONS}}</select></label>
+            <label for="topic">Research direction<select id="topic" name="topic"><option value="">All research directions</option>{{TOPIC_OPTIONS}}</select></label>
+            <label for="code">Code availability<select id="code" name="code"><option value="">All papers</option><option value="with-code">With code links</option><option value="without-code">No code link listed</option></select></label>
+            <button id="reset" class="reset-button" type="reset">Clear filters</button>
+          </div>
+        </form>
+        <noscript><p class="noscript-note">All papers are listed below. Enable JavaScript to search and filter the collection.</p></noscript>
+        <div class="results-heading"><p id="results-count" role="status" aria-live="polite">{{PAPER_COUNT}} paper records</p><label class="sort-label" for="sort">Sort by<select id="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Title A–Z</option></select></label></div>
+        <div id="paper-list" class="paper-list">{{PAPER_CARDS}}</div>
+        <div id="empty-state" class="empty-state" hidden><h3>No matching papers</h3><p>Try a different keyword or clear the filters.</p><button class="button button-dark" id="empty-reset" type="button">Clear filters</button></div>
+        <div class="load-more-wrap"><button id="load-more" class="button button-light" type="button" hidden>Show more papers</button></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><p>Curated by <a href="https://luckygirl-xu.github.io/">Yuanyuan Xu</a>.</p><div><a href="https://github.com/LuckyGirl-XU/Awesome-DynamicGraphLearning">GitHub</a><a href="https://github.com/LuckyGirl-XU/Awesome-DynamicGraphLearning/blob/main/CONTRIBUTING.md">Contribute</a><a href="./papers.json">Paper data</a></div></footer>
+  <script id="catalog-data" type="application/json">{{CATALOG_JSON}}</script>
+</body>
+</html>
