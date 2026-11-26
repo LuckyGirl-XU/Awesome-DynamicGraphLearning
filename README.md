@@ -49,13 +49,13 @@ Representative papers across all topics, with separate tasks for continuous-time
 | Topic | Focus |
 | --- | --- |
 | <a id="continuous"></a>[Continuous-Time Dynamic Graphs — Full paper list](papers/continuous-time.md) | Timestamped interactions, event-based models, and temporal GNNs. |
-| [Temporal Knowledge Graph Reasoning — Full paper list](papers/temporal-knowledge-graph-reasoning.md) | Forecasting, completion, and logical reasoning over time-stamped knowledge graph facts. |
 | ↳ [Link Prediction](papers/continuous-time.md#link-prediction) | Predicting future links from temporal interaction histories. |
 | ↳ [Node Affinity Prediction](papers/continuous-time.md#node-affinity-prediction) | A separate CTDG task for predicting node affinity targets. |
 | ↳ [Multi-task Learning](papers/continuous-time.md#multi-task-learning) | Learning across multiple temporal graph tasks. |
 | <a id="discrete"></a>[Discrete-Time Dynamic Graphs — Full paper list](papers/discrete-time.md) | Graph snapshots and evolving node representations. |
 | <a id="DyTAGs"></a>[Dynamic Text-Attributed Graphs — Full paper list](papers/text-attributed.md) | Text, multimodal features, and language models on evolving graphs. |
 | <a id="hyper"></a>[Temporal Hypergraphs — Full paper list](papers/temporal-hypergraphs.md) | Higher-order interactions and evolving hyperedges. |
+| [Temporal Knowledge Graph Reasoning — Full paper list](papers/temporal-knowledge-graph-reasoning.md) | Forecasting, completion, and logical reasoning over time-stamped knowledge graph facts. |
 
 ### Tasks and Learning Settings — Full Paper Lists
 
