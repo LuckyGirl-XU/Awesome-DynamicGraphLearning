@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated collection of papers, code, datasets, benchmarks, and libraries for **temporal and dynamic graph learning**. Topics include temporal graph neural networks, dynamic link prediction, text-attributed graphs, anomaly detection, and continual learning.
+A curated collection of papers, code, datasets, benchmarks, and libraries for **temporal and dynamic graph learning**. Topics include temporal graph neural networks, temporal knowledge graph reasoning, dynamic link prediction, text-attributed graphs, anomaly detection, and continual learning.
 
 [Paper Explorer](https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/) · [Getting Started](#getting-started) · [Recent Papers](#recent-papers) · [Full Paper Lists](#full-paper-lists-by-topic) · [Datasets & Benchmarks](resources/datasets-and-benchmarks.md) · [Libraries](resources/libraries.md) · [Contributing](CONTRIBUTING.md)
 
@@ -25,6 +25,7 @@ Representative papers across all topics, with separate tasks for continuous-time
 | [Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs](https://openreview.net/forum?id=q45V4tagJs) | NeurIPS 2026 | [CTDG · Multi-task](papers/continuous-time.md#multi-task-learning) |
 | [Temporal Graph Thumbnail: Robust Representation Learning with Global Evolutionary Skeleton](https://proceedings.iclr.cc/paper_files/paper/2026/hash/df29d63af05cb91d705cf06ba5945b9d-Abstract-Conference.html) | ICLR 2026 | [DTDG · Representation Learning](papers/discrete-time.md#2026) |
 | [Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation](https://www.vldb.org/pvldb/vol19/p862-xu.pdf) | VLDB 2026 | [DTDG · Evolving Structures](papers/discrete-time.md#2026) |
+| [INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e5a71ba556c84fef542aaace56b6cfe9-Abstract-Conference.html) | ICLR 2025 | [Temporal Knowledge Graph Reasoning](papers/temporal-knowledge-graph-reasoning.md#2025) |
 | [MoMent: Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation](https://arxiv.org/pdf/2502.19651) · [Code](https://github.com/LuckyGirl-XU/MoMent) | AAAI 2026 | [Text-attributed · Link Prediction](papers/text-attributed.md#2026) |
 | [Mitigating Anomaly Hallucination: A Model-Agnostic Framework for Unsupervised Anomaly Detection on Dynamic Graphs](https://dl.acm.org/doi/10.1145/3770855.3817610) | KDD 2026 | [Anomaly Detection](papers/anomaly-detection.md#2026) |
 | [FastHeP: Fast and Accurate Temporal Hypergraph Representation for Hyperedge Prediction](https://dl.acm.org/doi/10.1145/3690624.3709327) · [Code](https://github.com/LuckyGirl-XU/FastHeP) | KDD 2025 | [Hypergraph · Hyperedge Prediction](papers/temporal-hypergraphs.md#2025) |
@@ -48,6 +49,7 @@ Representative papers across all topics, with separate tasks for continuous-time
 | Topic | Focus |
 | --- | --- |
 | <a id="continuous"></a>[Continuous-Time Dynamic Graphs — Full paper list](papers/continuous-time.md) | Timestamped interactions, event-based models, and temporal GNNs. |
+| [Temporal Knowledge Graph Reasoning — Full paper list](papers/temporal-knowledge-graph-reasoning.md) | Forecasting, completion, and logical reasoning over time-stamped knowledge graph facts. |
 | ↳ [Link Prediction](papers/continuous-time.md#link-prediction) | Predicting future links from temporal interaction histories. |
 | ↳ [Node Affinity Prediction](papers/continuous-time.md#node-affinity-prediction) | A separate CTDG task for predicting node affinity targets. |
 | ↳ [Multi-task Learning](papers/continuous-time.md#multi-task-learning) | Learning across multiple temporal graph tasks. |

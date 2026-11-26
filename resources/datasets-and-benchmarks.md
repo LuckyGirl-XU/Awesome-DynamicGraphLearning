@@ -7,6 +7,7 @@ Benchmark entry points for temporal graph learning, dynamic text-attributed grap
 | Benchmark | Scope | Resources |
 | --- | --- | --- |
 | **TGB — Temporal Graph Benchmark** | Dynamic link and node property prediction; temporal knowledge graphs and heterogeneous graphs. | [Website & leaderboards](https://tgb.complexdatalab.com/) · [Code](https://github.com/shenyangHuang/TGB) · [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/066b98e63313162f6562b35962671288-Paper-Datasets_and_Benchmarks.pdf) |
+| **TGM — Temporal Graph Modelling** | Modular library for temporal graph learning; supports continuous- and discrete-time graphs, and link-, node-, and graph-level prediction. | [Code](https://github.com/tgm-team/tgm) · [Paper (ICLR 2026)](https://openreview.net/forum?id=kFgsebdKje) |
 | **TGB-Seq** | Temporal graph evaluation with complex sequential interaction dynamics. | [Paper](https://arxiv.org/abs/2502.02975) · [Code & datasets](https://github.com/TGB-Seq/TGB-Seq) |
 | **DTGB** | Dynamic text-attributed graphs. | [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf) · [Code & datasets](https://github.com/zjs123/DTGB) |
 | **BAG** | Anomaly detection on dynamic graphs. | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38510) · [Code & datasets](https://github.com/frhuaaa/BAG) |

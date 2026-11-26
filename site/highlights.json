@@ -35,6 +35,12 @@
     "focus": "DTDG · Evolving Structures"
   },
   {
+    "title": "INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph",
+    "year": 2025,
+    "topic": "temporal-knowledge-graph-reasoning",
+    "focus": "Temporal Knowledge Graph Reasoning"
+  },
+  {
     "title": "Unlocking Multi-Modal Potentials for Dynamic Text-Attributed Graph Representation",
     "year": 2026,
     "topic": "text-attributed",

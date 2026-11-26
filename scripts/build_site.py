@@ -15,6 +15,7 @@ REPOSITORY = "https://github.com/LuckyGirl-XU/Awesome-DynamicGraphLearning"
 SITE_URL = "https://luckygirl-xu.github.io/Awesome-DynamicGraphLearning/"
 TOPICS = {
     "continuous-time": "Continuous-time dynamic graphs",
+    "temporal-knowledge-graph-reasoning": "Temporal knowledge graph reasoning",
     "discrete-time": "Discrete-time dynamic graphs",
     "text-attributed": "Dynamic text-attributed graphs",
     "anomaly-detection": "Anomaly detection",

@@ -89,7 +89,8 @@ class CatalogTests(unittest.TestCase):
         highlights = read_highlights(self.papers)
         older = [p for p in highlights if p["year"] != 2026]
         self.assertEqual({(p["acronym"], p["venue"], p["year"]) for p in older},
-                         {("FastHeP", "KDD", 2025), ("LTF", "ICML", 2025), ("OTGNet", "ICLR", 2023)})
+                         {("FastHeP", "KDD", 2025), ("LTF", "ICML", 2025),
+                          (None, "ICLR", 2025), ("OTGNet", "ICLR", 2023)})
 
     def test_node_affinity_is_a_separate_ctdg_task(self):
         papers = [p for p in self.papers if "node-affinity" in p["tasks"]]
